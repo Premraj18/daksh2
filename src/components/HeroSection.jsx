@@ -46,7 +46,7 @@ const HeroSection = () => {
           <motion.span className='text-white w-28 sm:w-40 text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{backgroundColor:'rgba(6, 77, 18, 0.786)', border:'3px solid #65a30d'}}
             initial={{y:-600}}
             animate={{y:100}}
-            transition={{duration:0.8,delay:1}}
+            transition={{duration:0.8,delay:1.3}}
           >Support us</motion.span>
         </div>
         {/* <Slide duration={4000}>

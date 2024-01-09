@@ -6,7 +6,6 @@ import {
   Routes,
 } from "react-router-dom";
 import Home from './pages/Home';
-import Participation from './pages/participation/Participation';
 import Achivement from './pages/achivement/Achivement';
 import ScrollToTop from './pages/ScrollToTop';
 import Gallery from './pages/Gallery/Gallery';
@@ -27,10 +26,9 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/ourteam" element={<Team2 />} />
-          {/* <Route path="/participation" element={<Participation />} /> */}
           <Route path="/achivements" element={<Achivement />} />
           <Route path="/gallery" element={<Gallery />} />
-          {/* <Route path="/sponser" element={<Sponser />} /> */}
+          <Route path="/sponser" element={<Sponser />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>

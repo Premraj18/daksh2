@@ -1,27 +1,38 @@
 import { Fragment, useContext, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { BsFacebook, BsInstagram, BsLinkedin } from 'react-icons/bs'
 import { RxCross2 } from 'react-icons/rx'
 import { motion, useMotionValueEvent, useScroll } from "framer-motion";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
-  const {scrollY} = useScroll();
 
-    const [hidden, setHidden] = useState(false)
+  let {pathname} = useLocation()
+  let subpage = pathname.split('/')?.[1]
+  // console.log(subpage)
 
-    useMotionValueEvent(scrollY,'change', (latest) => {
-        if(latest > 20){
-            setHidden(true);
-        }else{
-            setHidden(false)
-        }
-    })
+  function Linkness (type = null) {
+    if(subpage === ''){
+      subpage = 'home'
+    }
+    let classes = 'text-sm font-medium text-white hover:text-lime-600 '
+
+    if(type === subpage){
+      classes += ' text-lime-700 font-extrabold'
+    }
+    else{
+      classes += ' text-white'
+    }
+
+    console.log(classes)
+    return classes
+  }
+  
   
 
   return (
-    <div className="bg-black sticky top-0 z-50  "  >
+    <div className="bg-black  sticky top-0 z-50  "  >
       {/* Mobile menu */}
       <Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="relative z-40 lg:hidden" onClose={setOpen}>
@@ -60,25 +71,25 @@ export default function Navbar() {
                 </div>
                 <div className="space-y-6 border-t border-gray-200 px-4 py-6">
                   <div className="flex flex-col w-full justify-center items-center space-y-8 my-5">
-                    <Link to={'/'} className="text-sm font-medium text-white hover:text-lime-600">
+                    <Link to={'/'} className={Linkness('home')}>
                       HOME
                     </Link>
-                    <Link to={'/about'} className="text-sm font-medium text-white ">
+                    <Link to={'/about'} className={Linkness('about')}>
                       ABOUT US
                     </Link>
-                    <Link to={'/achivements'} className="text-sm font-medium text-white ">
+                    <Link to={'/achivements'} className={Linkness('achivements')}>
                       ACHIEVEMENTS
                     </Link>
-                    <Link to={'/gallery'} className="text-sm font-medium text-white ">
+                    <Link to={'/gallery'} className={Linkness('gallery')}>
                       GALLERY
                     </Link>
-                    <Link to={'/ourteam'} className="text-sm font-medium text-white ">
+                    <Link to={'/ourteam'} className={Linkness('ourteam')}>
                       OUR TEAM
                     </Link>
-                    <Link to={'/sponser'} className="text-sm font-medium text-white ">
+                    <Link to={'/sponser'} className={Linkness('sponser')}>
                       SPONSOR US
                     </Link>
-                    <Link to={'/contact'} className="text-sm font-medium text-white ">
+                    <Link to={'/contact'} className={Linkness('contact')}>
                       CONTACT US
                     </Link>
                   </div>
@@ -96,12 +107,7 @@ export default function Navbar() {
 
       {/* desktop  */}
       <motion.header className="relative h-20"
-         variants={{
-          visible:{background:'linear-gradient(180deg,  black ,transparent , transparent)'},
-          hidden: {background:'black'},
-        }}
-        animate={hidden?"hidden":"visible"}
-        transition={{duration:0.35, ease:"easeInOut"}} 
+          
       >
         {/* <p className="flex h-5 items-center justify-center bg-pink-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8" style={{ backgroundColor: mode === 'dark' ? 'rgb(62 64 66)' : '', color: mode === 'dark' ? 'white' : '', }}>
           Get free delivery on orders over ₹300
@@ -126,38 +132,46 @@ export default function Navbar() {
               <div className="flex justify-between w-full">
                 <div className="ml-4 flex lg:ml-0 sm:w-auto w-full">
                   <Link to={'/'} className='flex w-full'>
-                    <div className="flex w-full justify-center mr-[5vw]">
+                    <motion.div className="flex w-full justify-center mr-[5vw]"
+                      initial={{opacity:0,x:-200}}
+                      animate={{opacity:1,x:0}}
+                      transition={{duration:0.5,delay:0.8}}
+                    >
                       <Link className=' text-2xl font-bold text-white  px-10 py-1 rounded'><img src="/logo2.png" className='w-32 ' alt="" /></Link>
-                    </div>
+                    </motion.div>
                   </Link>
                 </div>
 
                 {/* <div className="ml-auto flex items-center"> */}
-                <div className="hidden lg:flex lg:flex-1 lg:items-center justify-end xl:space-x-8 lg:space-x-6">
+                <motion.div className="hidden lg:flex lg:flex-1 lg:items-center justify-end xl:space-x-8 lg:space-x-6"
+                  // initial={{opacity:0,x:500}}
+                  // animate={{opacity:1,x:0}}
+                  // transition={{duration:0.5,delay:0.8}}
+                >
 
-                  <Link to={'/'} className="text-sm font-medium text-white hover:text-lime-600 hover:scale-110">
+                  <Link to={'/'} className={Linkness('home')}>
                     HOME
                   </Link>
-                  <Link to={'/about'} className="text-sm font-medium text-white hover:text-lime-600 hover:scale-110">
+                  <Link to={'/about'} className={Linkness('about')}>
                     ABOUT US
                   </Link>
-                  <Link to={'/achivements'} className="text-sm font-medium text-white hover:text-lime-600 hover:scale-110">
+                  <Link to={'/achivements'} className={Linkness('achivements')}>
                     ACHIEVEMENTS
                   </Link>
-                  <Link to={'/gallery'} className="text-sm font-medium text-white hover:text-lime-600 hover:scale-110">
+                  <Link to={'/gallery'} className={Linkness('gallery')}>
                     GALLERY
                   </Link>
-                  <Link to={'/ourteam'} className="text-sm font-medium text-white hover:text-lime-600 hover:scale-110">
+                  <Link to={'/ourteam'} className={Linkness('ourteam')}>
                     OUR TEAM
                   </Link>
-                  <Link to={'/sponser'} className="text-sm font-medium text-white hover:text-lime-600 hover:scale-110">
+                  <Link to={'/sponser'} className={Linkness('sponser')}>
                     SPONSOR US
                   </Link>
-                  <Link to={'/contact'} className="text-sm font-medium text-white hover:text-lime-600 hover:scale-110">
+                  <Link to={'/contact'} className={Linkness('contact')}>
                     CONTACT US
                   </Link>
 
-                </div>
+                </motion.div>
               </div>
               {/* </div> */}
             </div>

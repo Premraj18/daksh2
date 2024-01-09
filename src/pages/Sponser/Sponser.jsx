@@ -1,10 +1,13 @@
 import React from 'react'
+import Layout from '../../components/Layout'
 
 const Sponser = () => {
     return (
-        <div className="conatiner">
-            
-        </div>
+        <Layout>
+            <div className="conatiner">
+                sponser
+            </div>
+        </Layout>
 
     )
 }

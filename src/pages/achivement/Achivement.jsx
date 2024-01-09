@@ -11,15 +11,6 @@ import 'swiper/css/pagination';
 import { motion, useScroll, useTransform } from 'framer-motion'
 
 const Achivement = () => {
-    const ref = useRef();
-
-    const { scrollYProgress } = useScroll({
-        target: ref,
-        offset: ["start start", "end start"]
-    });
-
-    const y = useTransform(scrollYProgress, [0, 1], ["0%", "-300%"])
-    const y2 = useTransform(scrollYProgress, [0, 1], ["0%", "-200%"])
 
     return (
         <Layout>
