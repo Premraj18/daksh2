@@ -1,0 +1,35 @@
+[ 
+    {
+        "id": "1",
+        "imgUrl": "/Gallery/manufacture/img1.jpg"
+    },
+    {
+        "id": "2",
+        "imgUrl": "/Gallery/manufacture/img2.jpg"
+    },
+    {
+        "id": "3",
+        "imgUrl": "/Gallery/manufacture/img3.jpg"
+    },
+    {
+        "id": "4",
+        "imgUrl": "/Gallery/manufacture/img4.jpg"
+    },
+    {
+        "id": "5",
+        "imgUrl": "/Gallery/manufacture/img5.jpg"
+    },
+    {
+        "id": "6",
+        "imgUrl": "/Gallery/manufacture/img6.jpg"
+    },
+    {
+        "id": "7",
+        "imgUrl": "/Gallery/manufacture/img7.jpg"
+    },
+    {
+        "id": "8",
+        "imgUrl": "/Gallery/manufacture/img8.jpg"
+    }
+]
+    
