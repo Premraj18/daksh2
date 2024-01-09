@@ -29,7 +29,7 @@ const About = () => {
                             whileInView='animate'
                         >
                             <div className='w-full text-center mt-12 mb-20'>
-                                <h2 className='text-xl sm:text-4xl'>Welcome To <span className='text-lime-600'>team Daksh</span></h2>
+                                <h2 className='text-xl sm:text-4xl'>Welcome To <span className='text-lime-600'>Team Daksh</span></h2>
                             </div>
                             <div className="flex flex-wrap ">
                                 <motion.div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0" variants={variants}>
