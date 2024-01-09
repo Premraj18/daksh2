@@ -11,7 +11,7 @@ export default function Footer() {
                 <div className="flex flex-wrap md:text-left text-center order-first">
                     <div className="lg:w-1/3 md:w-1/2 w-full sm:px-4 flex flex-col justify-center items-center" >
                         <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3 lg:text-xl" >Quick Link</h2>
-                        <nav className="list-none w-full mb-5 text-sm lg:text-lg flex gap-x-1">
+                        <nav className="list-none w-full mb-5 text-sm lg:text-lg flex gap-x-1 justify-center">
                             <li>
                                 <Link to='/home' className="text-gray-50 hover:text-lime-600 cursor-pointer" >Home |</Link>
                             </li>
@@ -51,7 +51,7 @@ export default function Footer() {
                         </nav>
                     </div>
                 </div>
-                <div className='lg:text-lg text-white'>
+                <div className='lg:text-lg text-white flex items-center justify-center'>
                     <p >Designed By: <a href="" className='text-lime-600'>Abcdefgh</a> </p>
                 </div>
             </div>
