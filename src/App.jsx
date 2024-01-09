@@ -6,7 +6,6 @@ import {
   Routes,
 } from "react-router-dom";
 import Home from './pages/Home';
-import Team from './pages/team/Team';
 import Participation from './pages/participation/Participation';
 import Achivement from './pages/achivement/Achivement';
 import ScrollToTop from './pages/ScrollToTop';

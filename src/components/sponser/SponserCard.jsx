@@ -66,6 +66,15 @@ function SponserCard() {
       swipeToSlide: true,
       pauseOnHover: true,
       variableWidth: false,
+
+      responsive:[{
+        breakpoint:600,
+        settings:{
+            slidesToShow:2,
+            speed: 3500,
+            autoplaySpeed: 2000,
+        }
+    }]
       
     };
   }, []);
@@ -73,10 +82,9 @@ function SponserCard() {
     <div className=' w-auto'>
       <Slider {...settings}>
         {Data.map((d) => (
-          <div key={d.id} className="w-full rounded overflow-hidden mx-80">
-            <img className="w-10 md:w-40  ml-6 md:ml-28" src={d.imgUrl} alt="Sunset in the mountains" />
+          <div key={d.id} className="h-40 w-full rounded overflow-hidden flex flex-col items-center justify-center">
+            <img className="w-40 md:w-40 m-auto" src={d.imgUrl} alt="Sunset in the mountains" />
             <div className="px-6 py-4">
-              <div className="font-bold text-white text-sm md:text-xl text-center mb-2">{d.title}</div>
               <p className="text-gray-100 text-center text-base  md:text-xl">
                 {d.description}
               </p>
