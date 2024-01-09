@@ -124,7 +124,7 @@ const Contact = () => {
                     <div className="mb-4">
                         <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
                             <h2
-                                className="font-heading mb-4 font-bold tracking-tight text-gray-900  text-3xl sm:text-5xl" >
+                                className="font-heading mb-4 font-bold tracking-tight text-white  text-3xl sm:text-5xl" >
                                 Get in <span className='text-lime-600'>Touch</span>
                             </h2>
                         </div>
