@@ -19,7 +19,7 @@ export default function Navbar() {
     let classes = 'text-sm font-medium text-white hover:text-lime-600 '
 
     if(type === subpage){
-      classes += ' text-lime-500 font-extrabold '
+      classes += ' border-2 border-lime-600 '
     }
     else{
       classes += ' text-white'
