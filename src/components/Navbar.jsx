@@ -19,7 +19,7 @@ export default function Navbar() {
     let classes = 'text-sm font-medium text-white hover:text-lime-600 '
 
     if(type === subpage){
-      classes += ' text-lime-700 font-extrabold'
+      classes += ' text-lime-500 font-extrabold '
     }
     else{
       classes += ' text-white'
@@ -144,9 +144,9 @@ export default function Navbar() {
 
                 {/* <div className="ml-auto flex items-center"> */}
                 <motion.div className="hidden lg:flex lg:flex-1 lg:items-center justify-end xl:space-x-8 lg:space-x-6"
-                  // initial={{opacity:0,x:500}}
-                  // animate={{opacity:1,x:0}}
-                  // transition={{duration:0.5,delay:0.8}}
+                  initial={{opacity:0,x:500}}
+                  animate={{opacity:1,x:0}}
+                  transition={{duration:0.5,delay:0.8}}
                 >
 
                   <Link to={'/'} className={Linkness('home')}>
