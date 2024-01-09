@@ -51,7 +51,7 @@ export default function Footer() {
                         </nav>
                     </div>
                 </div>
-                <div className='lg:text-lg text-white'>
+                <div className='lg:text-lg text-white flex items-center justify-center'>
                     <p >Designed By: <a href="" className='text-lime-600'>Abcdefgh</a> </p>
                 </div>
             </div>
