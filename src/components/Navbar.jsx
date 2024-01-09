@@ -97,8 +97,8 @@ export default function Navbar() {
       {/* desktop  */}
       <motion.header className="relative h-20"
          variants={{
-          visible:{background:'transparent'},
-          hidden: {backgroundColor:'black'},
+          visible:{background:'linear-gradient(180deg,  black ,transparent , transparent)'},
+          hidden: {background:'black'},
         }}
         animate={hidden?"hidden":"visible"}
         transition={{duration:0.35, ease:"easeInOut"}} 
@@ -127,7 +127,7 @@ export default function Navbar() {
                 <div className="ml-4 flex lg:ml-0">
                   <Link to={'/'} className='flex'>
                     <div className="flex ">
-                      <Link className=' text-2xl font-bold text-white  px-10 py-1 rounded'><img src="/logo3.png" className='w-40 ' alt="" /></Link>
+                      <Link className=' text-2xl font-bold text-white  px-10 py-1 rounded'><img src="/logo2.png" className='w-32 ' alt="" /></Link>
                     </div>
                   </Link>
                 </div>

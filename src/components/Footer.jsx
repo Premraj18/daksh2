@@ -9,9 +9,9 @@ export default function Footer() {
         <footer className="body-font " style={{background: `linear-gradient(180deg,  rgba(15,182,0, 0.275) ,black , black)`}} >
             <div className="container px-5 pt-16 mx-auto" >
                 <div className="flex flex-wrap md:text-left text-center order-first">
-                    <div className="lg:w-1/3 md:w-1/2 w-full px-4 flex flex-col justify-center items-center" >
+                    <div className="lg:w-1/3 md:w-1/2 w-full sm:px-4 flex flex-col justify-center items-center" >
                         <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3 lg:text-xl" >Quick Link</h2>
-                        <nav className="list-none mb-5 lg:text-lg flex gap-x-1">
+                        <nav className="list-none w-full mb-5 text-sm lg:text-lg flex gap-x-1">
                             <li>
                                 <Link to='/home' className="text-gray-50 hover:text-lime-600 cursor-pointer" >Home |</Link>
                             </li>

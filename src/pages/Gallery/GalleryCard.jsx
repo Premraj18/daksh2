@@ -1,5 +1,10 @@
-import React, { useContext } from 'react'
+import React, { useState } from 'react'
 import { motion } from 'framer-motion'
+import "./Gallery2.css";
+import Slider from "react-slick";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const variants = {
     initial: {
@@ -17,60 +22,47 @@ const variants = {
 }
 
 const GalleryCard = ({ item }) => {
-    return (
-        <>
-            {/* <motion.div className=''>
-                <motion.div className=''
-                    variants={variants}
-                    initial='initial'
-                    whileInView='animate'
-                > */}
-                    <div className="dabba w-full">
-                        <div className='slider'>
-                            {item.map((d) => {
-                                return (
-                                    // <motion.div
-                                    //     key={d.id}
-                                    //     className="block border-4 h-80 mb-12 border-lime-600 w-full sm:w-80 rounded-lg bg-white" variants={variants}>
-                                    //     <a href="#!">
-                                    //         <div className=" h-full">
-                                    //             <motion.img
-                                    //                 className="rounded-lg h-full  w-full"
-                                    //                 src={d.imgUrl}
-                                    //                 initial={{scale:1}}
-                                    //                 whileHover={{scale:1.2, boxShadow:'0 0 15px #3b3f47'}}
-                                    //                 transition={{duration:0.4}}
-                                    //                 alt="" />
-                                    //         </div>
-                                    //     </a>
-                                    // </motion.div>
-                                    <span style={{ '--i': d.id }}><img src={d.imgUrl} alt="" /></span>
-                                )
-                            })}
-                        </div>
-                    </div>
-                {/* </motion.div>
-            </motion.div> */}
-            <div className='container sm:hidden w-full'>
-                <div className='flex justify-center md:gap-x-16 gap-y-10 flex-wrap'>
-                    {item.map((d) => {
-                        return (
-                            <div
-                                key={d.id}
-                                className="block border-4 h-80 mb-12 border-lime-600 w-full sm:w-80 rounded-lg bg-white">
-                                <a href="#!">
-                                    <img
-                                        className="rounded-t-lg h-full  w-full"
-                                        src={d.imgUrl}
-                                        alt="" />
-                                </a>
-                            </div>
-                        )
-                    })}
-                </div>
-            </div>
-        </>
-    )
+    const NextArrow = ({ onClick }) => {
+        return (
+          <div className="arrow next" onClick={onClick}>
+            <FaArrowRight />
+          </div>
+        );
+      };
+    
+      const PrevArrow = ({ onClick }) => {
+        return (
+          <div className="arrow prev" onClick={onClick}>
+            <FaArrowLeft />
+          </div>
+        );
+      };
+    
+      const [imageIndex, setImageIndex] = useState(0);
+    
+      const settings = {
+        infinite: true,
+        lazyLoad: true,
+        speed: 300,
+        slidesToShow: 3,
+        centerMode: true,
+        centerPadding: 0,
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />,
+        beforeChange: (current, next) => setImageIndex(next),
+      };
+    
+      return (
+        <div className="dabba w-full">
+          <Slider {...settings}>
+            {item.map((img, idx) => (
+              <div key={img.id}  className={idx === imageIndex ? "slide activeSlide" : "slide"}>
+                <img src={img.imgUrl} alt={img} className="mt-2 sm:mt-6 w-full h-[90%] border-2 rounded-xl border-lime-600 "/>
+              </div>
+            ))}
+          </Slider>
+        </div>
+      );
 }
 
 export default GalleryCard

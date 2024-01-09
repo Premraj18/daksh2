@@ -1,51 +1,52 @@
-import React from 'react'
-import './Gallery2.css'
+import "./Gallery2.css";
+import { useState } from "react";
+import Slider from "react-slick";
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const Gallery2 = () => {
+function Gallery2({ item }) {
+  const NextArrow = ({ onClick }) => {
+    return (
+      <div className="arrow next" onClick={onClick}>
+        <FaArrowRight />
+      </div>
+    );
+  };
+
+  const PrevArrow = ({ onClick }) => {
+    return (
+      <div className="arrow prev" onClick={onClick}>
+        <FaArrowLeft />
+      </div>
+    );
+  };
+
+  const [imageIndex, setImageIndex] = useState(0);
+
+  const settings = {
+    infinite: true,
+    lazyLoad: true,
+    speed: 300,
+    slidesToShow: 3,
+    centerMode: true,
+    centerPadding: 0,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+    beforeChange: (current, next) => setImageIndex(next),
+  };
+
   return (
     <div className="dabba">
-      <div className='slider'>
-        <span style={{'--i':1}}><img src="/crausal.jpg" alt="" /></span>
-        <span style={{'--i':2}}><img src="/crausal.jpg" alt="" /></span>
-        <span style={{'--i':3}}><img src="/crausal.jpg" alt="" /></span>
-        <span style={{'--i':4}}><img src="/crausal.jpg" alt="" /></span>
-        <span style={{'--i':5}}><img src="/crausal.jpg" alt="" /></span>
-        <span style={{'--i':6}}><img src="/crausal.jpg" alt="" /></span>
-        <span style={{'--i':7}}><img src="/crausal.jpg" alt="" /></span>
-        <span style={{'--i':8}}><img src="/crausal.jpg" alt="" /></span>
-      </div>
+      <Slider {...settings}>
+        {item.map((img, idx) => (
+          <div key={img.id}  className={idx === imageIndex ? "slide activeSlide" : "slide"}>
+            <img src={img.imgUrl} alt={img} className="mt-5 w-full h-[90%] border-2 rounded-xl border-lime-600 "/>
+          </div>
+        ))}
+      </Slider>
     </div>
-  )
+  );
 }
 
-export default Gallery2
-
-
-// {
-//   "id": "9",
-//   "imgUrl": "/Gallery/manufacture/img9.jpg"
-// },
-// {
-//   "id": "10",
-//   "imgUrl": "/Gallery/manufacture/img10.jpg"
-// },
-// {
-//   "id": "11",
-//   "imgUrl": "/Gallery/manufacture/img11.jpg"
-// },
-// {
-//   "id": "12",
-//   "imgUrl": "/Gallery/manufacture/img12.jpg"
-// },
-// {
-//   "id": "13",
-//   "imgUrl": "/Gallery/manufacture/img13.jpg"
-// },
-// {
-//   "id": "14",
-//   "imgUrl": "/Gallery/manufacture/img14.jpg"
-// },
-// {
-//   "id": "15",
-//   "imgUrl": "/Gallery/manufacture/img15.jpg"
-// }
+export default Gallery2;
