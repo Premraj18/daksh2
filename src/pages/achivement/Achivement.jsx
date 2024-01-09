@@ -8,51 +8,49 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { motion, useScroll, useTransform } from 'framer-motion'
 
 const Achivement = () => {
+    const ref = useRef();
+
+    const { scrollYProgress } = useScroll({
+        target: ref,
+        offset: ["start start", "end start"]
+    });
+
+    const y = useTransform(scrollYProgress, [0, 1], ["0%", "-300%"])
+    const y2 = useTransform(scrollYProgress, [0, 1], ["0%", "-200%"])
 
     return (
         <Layout>
             <>
-                <Swiper
-                    spaceBetween={30}
-                    effect={'fade'}
-                    navigation={true}
-                    pagination={{
-                        clickable: true,
-                    }}
-                    modules={[EffectFade, Navigation, Pagination]}
-                    className="w-full h-full"
-                >
-                    <SwiperSlide className='bg-cover bg-no-repeat bg-center'>
-                        <div className="w-full flex flex-col">
-                            <div className='h-[120vh]' style={{border:"2px solid red"}}>
-                                <img src="/crausal.jpg" alt="" className='h-full w-full overflow-hidden' />
-                            </div>
-                            <div className='flex h-[100vh] flex-wrap gap-x-10 justify-center' style={{border:'2px solid red'}}>
-                                <div className='w-2/5 border-2 border-lime-700'>
-                                    <img src="/about.jpg" alt="" />
-                                </div>
-                                <div className='w-2/5 border-2 border-lime-700'>
+                <div>
+                    <p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
 
-                                </div>
-                            </div>
+                    <div className="min-h-[500px] bg-fixed bg-center bg-cover bg-no-repeat"
+                        style={{
+                            backgroundImage: "url(" + "/gogreen2.png" + ")",
+                        }}
+
+                    >
+                        <div className='w-full h-[500px]'
+                            style={{ background: 'linear-gradient(to bottom, rgba(2, 2, 2, 0.733),rgba(2, 2, 2, 0.733))' }}
+                        >
+
                         </div>
-                    </SwiperSlide>
-                    <SwiperSlide className='bg-cover bg-no-repeat bg-center'>
-                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" className='w-full block' />
-                    </SwiperSlide>
-                    <SwiperSlide className='bg-cover bg-no-repeat bg-center'>
-                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" className='w-full block' />
-                    </SwiperSlide>
-                    <SwiperSlide className='bg-cover bg-no-repeat bg-center'>
-                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" className='w-full block' />
-                    </SwiperSlide>
-                </Swiper>
+                    </div>
+
+                    <div className='h-[600px] bg-slate-900 text-white text-lg'>
+                        Scroll Up and Down this page to see the parallax scrolling effect.
+                        This div is just here to enable scrolling.
+                        Tip: Try to remove the background-attachment property to remove the scrolling effect.
+                    </div>
+                </div>
             </>
-        
+
         </Layout>
     )
 }
 
 export default Achivement
+

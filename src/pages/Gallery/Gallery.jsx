@@ -6,7 +6,6 @@ import events from './events.json'
 import GroupPhoto from './GroupPhoto.json'
 import Celebration from './celebration.json'
 import GalleryCard from './GalleryCard'
-import Gallery2 from './Gallery2'
 import './Gallery2.css'
 
 const Gallery = () => {
@@ -63,7 +62,7 @@ const Gallery = () => {
                     </div>
                 </div>
             </div>
-            {/* <Gallery2 item={item1}/> */}
+            
         </Layout >
         </>
     )

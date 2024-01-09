@@ -8,38 +8,44 @@ const Data = [
     id: "1",
     title: "Detail",
     description: "About the Invester",
-    imgUrl: "https://i.pinimg.com/originals/e7/eb/55/e7eb555410e9f4ce1662121349c4084a.jpg"
+    imgUrl: "/sponser/img1.png"
   },
   {
     id: "2",
     title: "Detail",
     description: "About the Invester",
-    imgUrl: "https://i.pinimg.com/originals/e7/eb/55/e7eb555410e9f4ce1662121349c4084a.jpg"
+    imgUrl: "/sponser/img2.png"
   },
   {
     id: "3",
     title: "Detail",
     description: "About the Invester",
-    imgUrl: "https://i.pinimg.com/originals/e7/eb/55/e7eb555410e9f4ce1662121349c4084a.jpg"
+    imgUrl: "/sponser/img3.png"
   },
   {
     id: "4",
     title: "Detail",
     description: "About the Invester",
-    imgUrl: "https://i.pinimg.com/originals/e7/eb/55/e7eb555410e9f4ce1662121349c4084a.jpg"
+    imgUrl: "/sponser/img4.png"
   },
   {
     id: "5",
     title: "Detail",
     description: "About the Invester",
-    imgUrl: "https://i.pinimg.com/originals/e7/eb/55/e7eb555410e9f4ce1662121349c4084a.jpg"
+    imgUrl: "/sponser/img5.png"
   },
   {
     id: "6",
     title: "Detail",
     description: "About the Invester",
-    imgUrl: "https://i.pinimg.com/originals/e7/eb/55/e7eb555410e9f4ce1662121349c4084a.jpg"
+    imgUrl: "/sponser/img6.png"
   },
+  {
+    id: "7",
+    title: "Detail",
+    description: "About the Invester",
+    imgUrl: "/sponser/img7.png"
+  }
 ]
 
 function SponserCard() {
