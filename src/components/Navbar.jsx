@@ -25,7 +25,7 @@ export default function Navbar() {
       classes += ' text-white'
     }
 
-    console.log(classes)
+    // console.log(classes)
     return classes
   }
   
