@@ -50,14 +50,21 @@ const GalleryCard = ({ item }) => {
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
         beforeChange: (current, next) => setImageIndex(next),
+
+        responsive:[{
+            breakpoint:557,
+            settings:{
+                slidesToShow:1,
+            }
+        }]
       };
     
       return (
-        <div className="dabba w-full">
+        <div className="dabba w-full mx-auto">
           <Slider {...settings}>
             {item.map((img, idx) => (
               <div key={img.id}  className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-                <img src={img.imgUrl} alt={img} className="mt-2 sm:mt-6 w-full h-[90%] border-2 rounded-xl border-lime-600 "/>
+                <img src={img.imgUrl} alt={img} className="mt-[-80px] sm:mt-6 sm:ml-2  w-[200px] h-[170px] sm:h-[90%] sm:w-full border-2 rounded-xl border-lime-600 "/>
               </div>
             ))}
           </Slider>

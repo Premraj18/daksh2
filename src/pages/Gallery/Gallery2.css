@@ -101,11 +101,26 @@
 @media(max-width:557px){
   .dabba {
       /* border: 2px solid red; */
-      margin: 30px 0;
+      margin: 10px auto;
+      padding: 5px 0;
   }
   
   .slide {
-    height: 40vw;
+    transform: scale(0.8);
+    transition: transform 500ms;
+    opacity: 0.4;
+    margin: 200px 0px 0 42vw;
+  }
+  
+  .activeSlide {
+    transform: scale(1.5);
+    opacity: 1;
   }
 
+
+}
+@media(max-width:400px){
+  .slide {
+    margin: 200px 0px 0 130px;
+  }
 }

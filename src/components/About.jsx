@@ -87,12 +87,20 @@ const About = () => {
                 </motion.div>
             </motion.div>
 
-            <section className="flex items-center bg-black xl:h-screen font-poppins sm:hidden" >
+            <section className="flex items-center bg-black xl:h-screen font-poppins sm:hidden sm:mb-0" 
+                style={{
+                    backgroundImage: "url(" + "/about.jpg" + ")",
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
+                }}
+            >
                 <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6 "
+                    style={{background:'linear-gradient(to bottom, rgba(2, 2, 2, 0.733),rgba(2, 2, 2, 0.733))'}}
                 >
                     <div className="flex flex-wrap ">
                         <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
-                            <div className="relative lg:max-w-md">
+                            {/* <div className="relative lg:max-w-md">
                                 <img src="/about.jpg" alt="aboutimage"
                                     className="relative z-10 object-cover w-full rounded h-96" />
                                 <div
@@ -107,7 +115,7 @@ const About = () => {
                                         </svg> We Work Together, Perform Together, Achieve Together
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 ">
                             <div className="pl-4 mb-6 border-l-4 border-lime-600 ">

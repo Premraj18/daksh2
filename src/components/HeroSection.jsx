@@ -29,8 +29,8 @@ const slideImages = [
 
 const HeroSection = () => {
   return (
-    <div className="slide-container">
-      <div className='h-[40vh] md:h-[90vh] ' style={{
+    <div className="slide-container sm:mb-0 mb-12">
+      <div className='h-[60vh] md:h-[90vh] ' style={{
         backgroundImage: "url(" + "/crausal.jpg" + ")",
         display: 'flex',
         alignItems: 'center',
@@ -43,7 +43,7 @@ const HeroSection = () => {
         <div className='flex justify-center items-center h-full w-full' style={{
           background:'linear-gradient(to bottom, rgba(2, 2, 2, 0.533), rgba(2, 2, 2, 0.533),rgba(17, 52, 23, 0.433))'
         }}>
-          <motion.span className='text-white w-40 text-center text-lg cursor-pointer  rounded-3xl p-2' style={{backgroundColor:'rgba(6, 77, 18, 0.786)', border:'3px solid #65a30d'}}
+          <motion.span className='text-white w-28 sm:w-40 text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{backgroundColor:'rgba(6, 77, 18, 0.786)', border:'3px solid #65a30d'}}
             initial={{y:-600}}
             animate={{y:100}}
             transition={{duration:0.8,delay:1}}

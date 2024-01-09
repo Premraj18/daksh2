@@ -22,7 +22,7 @@ const Gallery = () => {
     return (
         <>
             <Layout>
-                <div className="w-full sm:h-[130vh] h-[100vh] sm:w-auto flex flex-wrap"
+                <div className="w-full sm:h-[130vh] h-[120vh] sm:w-auto flex flex-wrap"
                     style={{
                         backgroundImage: "url(" + "/sponser.jpg" + ")",
                         backgroundPosition: 'center',
@@ -32,7 +32,7 @@ const Gallery = () => {
                 >
                     <div className="h-full w-full justify-center items-center flex-1 "
                         style={{
-                            background: 'linear-gradient(to bottom, rgba(2, 2, 2, 0.533),rgba(2, 2, 2, 0.533))'
+                            background: 'linear-gradient(to bottom, rgba(2, 2, 2, 0.733),rgba(2, 2, 2, 0.733))'
                         }}
                     >
                         <div className='w-full' >

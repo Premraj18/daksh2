@@ -124,9 +124,9 @@ export default function Navbar() {
 
               {/* Logo */}
               <div className="flex justify-between w-full">
-                <div className="ml-4 flex lg:ml-0">
-                  <Link to={'/'} className='flex'>
-                    <div className="flex ">
+                <div className="ml-4 flex lg:ml-0 sm:w-auto w-full">
+                  <Link to={'/'} className='flex w-full'>
+                    <div className="flex w-full justify-center mr-[5vw]">
                       <Link className=' text-2xl font-bold text-white  px-10 py-1 rounded'><img src="/logo2.png" className='w-32 ' alt="" /></Link>
                     </div>
                   </Link>
@@ -158,13 +158,6 @@ export default function Navbar() {
                   </Link>
 
                 </div>
-
-                {/* Search */}
-                {/* <div className="flex lg:ml-6 items-center">
-                  <a href="" className='hidden lg:inline xl:w-12 lg:w-10 hover:text-lime-600'><BsInstagram size={23} /></a>
-                  <a href="" className='hidden lg:inline xl:w-12 lg:w-10 hover:text-lime-600'><BsFacebook size={23} /></a>
-                  <a href="" className='hidden lg:inline xl:w-12 lg:w-10 hover:text-lime-600'><BsLinkedin size={23} /></a>
-                </div> */}
               </div>
               {/* </div> */}
             </div>
