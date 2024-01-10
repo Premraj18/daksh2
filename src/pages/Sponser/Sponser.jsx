@@ -43,7 +43,7 @@ const Sponser = () => {
                             </Link>
                         </div>
 
-                        <div className="m-6 flex flex-col items-center mr-20">
+                        <div className="m-6 flex flex-col items-center md:mr-20">
                             <h1 className="text-lg sm:text-2xl mb-2">Donate</h1>
                             <a href='mailto:daksh.nitjsr@nitjsr.ac.in ' className='text-white my-4'>
                                 <FaDonate size={50}/>
