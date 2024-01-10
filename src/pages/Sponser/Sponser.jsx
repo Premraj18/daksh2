@@ -9,7 +9,7 @@ const Sponser = () => {
     return (
         <Layout>
             <div>
-                <div className="min-h-[500px] bg-fixed bg-center bg-cover bg-no-repeat"
+                <div className=" h-[400px] md:min-h-[500px] bg-fixed bg-center bg-cover bg-no-repeat"
                     style={{
                         backgroundImage: "url(" + "/sponserus.jpg" + ")",
                     }}
@@ -28,7 +28,7 @@ const Sponser = () => {
                             Sponsor <span className="text-lime-500">Us</span>
                         </h1>
                         <h2 className='text-white text-center text-lg my-2 py-2 sm:text-3xl '>Be a Part of Our Journey!</h2>
-                        <hr className='border-lime-600 border-2 w-[400px] m-auto'/>
+                        <hr className='border-lime-600 border-2 w-[220px] sm:w-[400px] m-auto'/>
                         <p className="text-lg mt-4">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti neque nostrum provident fuga repellat ullam, dolorem eveniet odit deserunt! Enim aliquid nulla tempora consequuntur a ipsum, pariatur natus maiores consequatur neque assumenda incidunt, voluptatem ipsa molestiae! Sunt eius inventore itaque dolorem, deserunt aspernatur aut cum fugiat odio consectetur nobis quod.
 
