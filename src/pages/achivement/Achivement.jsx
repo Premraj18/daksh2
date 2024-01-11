@@ -2,13 +2,7 @@ import React, { useRef, useState } from 'react'
 import Card from './Card'
 import Data from './data.json'
 import Layout from '../../components/Layout'
-import { EffectFade, Navigation, Pagination } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/effect-fade';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import { motion, useScroll, useTransform } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const Achivement = () => {
 
@@ -31,10 +25,21 @@ const Achivement = () => {
                         </div>
                     </div>
 
-                    <div className='h-[600px] bg-slate-900 text-white text-lg'>
-                        Scroll Up and Down this page to see the parallax scrolling effect.
-                        This div is just here to enable scrolling.
-                        Tip: Try to remove the background-attachment property to remove the scrolling effect.
+                    <div className="w-full sm:w-auto text-white flex gap-28 flex-wrap sm:px-32 pl-4 pr-4 bg-black mb-28" >
+                        <div className='w-full'>
+                            <h2 className='w-full text-3xl text-center font-semibold md:text-5xl my-12'>Our <span className='text-lime-600'>Achievements</span></h2>
+                        </div>
+                        <div className='flex justify-center md:gap-x-24 gap-y-20 flex-wrap' style={{ marginTop: '-80px' }}>
+                            {Data && Data.map((element) => {
+                                //   console.log(element);
+                                return <div className="flex" key={element.id}>
+                                    <Card title={element.title} description={element.description} imgUrl={element.imgUrl}
+                                    />
+                                </div>
+                            })}
+                        </div>
+
+
                     </div>
                 </div>
             </>

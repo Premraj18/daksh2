@@ -7,17 +7,14 @@ const Card = (props) => {
     return (
         <>
             <motion.div
-                className="block w-full sm:w-80 rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"   
-                    whileHover={{boxShadow:'0 0 15px #84cc16'}}
+                className="block w-full sm:w-80 rounded-lg bg-white shadow-2xl shadow-lime-500/50"   
+                    whileHover={{boxShadow:'0 0 15px #84cc16',scale:1.1}}
                     transition={{duration:0.5}}
-                    style={{ 
-                        backgroundColor: mode === 'dark' ? '#dddfe3y' : '', 
-                        boxShadow: mode === 'dark' ? '0 0 12px white' : '0 0 20px lightgray', 
-                    }}
+                    
                 >
                 <a href="#!">
                     <img
-                        className="rounded-t-lg"
+                        className="rounded-t-lg h-60 w-full"
                         src={props.imgUrl}
                         alt="" />
                 </a>
