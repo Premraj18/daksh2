@@ -62,12 +62,12 @@ const HeroSection = () => {
             initial={{y:-600}}
             animate={{y:200}}
             transition={{duration:0.8,delay:1.6}}
-          ><Link to='/sponser'>Support us</Link></motion.span>
+          ><a href='' target='_blank'>Off-Road IQ link</a></motion.span>
           <motion.span className=' sm:hidden text-white mb-36 w-28 sm:w-40 text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{backgroundColor:'rgba(6, 77, 18, 0.786)', border:'3px solid #65a30d'}}
             initial={{y:-600}}
             animate={{y:200}}
             transition={{duration:0.8,delay:1.3}}
-          ><Link to='/sponser'>Support us</Link></motion.span>
+          ><a href='' target='_blank'>Off-Road IQ link</a></motion.span>
         </div>
       </div>
     </div>
