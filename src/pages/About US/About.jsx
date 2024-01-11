@@ -50,7 +50,7 @@ const About = () => {
                                         </motion.div>
                                     </div>
                                 </motion.div>
-                                <motion.div className="w-full px-6 mb-10 lg:w-1/2 lg:mb-0 " variants={variants}>
+                                <motion.div className="w-full px-6  lg:w-1/2 lg:mb-0 " variants={variants}>
                                     <motion.div className="pl-4 mb-6 border-l-4 border-lime-600 " variants={variants}>
                                         <span className="text-lg md:text-xl  uppercase text-white ">Who we are?</span>
                                     </motion.div>
@@ -68,38 +68,94 @@ const About = () => {
                                 </motion.div>
                             </div>
                         </motion.div>
-                        <div className='text-white'>
-                            <div className='flex flex-wrap  justify-center mb-4'>
-                                <div className='rounded-md  w-1/2 md:w-2/3 h-full' >
-                                    <h1 className='text-2xl md:text-3xl lg:text-4xl  mb-4'>About <span className='text-lime-600'>us</span></h1>
-                                    <p className='text-sm md:text-base text-gray-100'>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                    </p>
-                                </div>
-                                <div>
-                                    <img src="https://images.pexels.com/photos/371589/pexels-photo-371589.jpeg?cs=srgb&dl=clouds-conifer-daylight-371589.jpg&fm=jpg" className='w-full h-32 rounded-md object-cover ml-2 ' alt="Project" />
+
+
+
+                        <section className="flex items-center bg-black xl:h-screen font-poppins sm:hidden sm:mb-0"
+                            style={{
+                                backgroundImage: "url(" + "/about.jpg" + ")",
+                                backgroundPosition: 'center',
+                                backgroundSize: 'cover',
+                                backgroundRepeat: 'no-repeat'
+                            }}
+                        >
+                            <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6 "
+                                style={{ background: 'linear-gradient(to bottom, rgba(2, 2, 2, 0.733),rgba(2, 2, 2, 0.733))' }}
+                            >
+                                <div className="flex flex-wrap ">
+                                    <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
+
+                                    </div>
+                                    <div className="w-full px-6 lg:w-1/2 lg:mb-0 ">
+                                        <div className="pl-4 mb-6 border-l-4 border-lime-600 ">
+                                            <span className="text-sm text-white uppercase" >Who we are?</span>
+                                            <h1 className="mt-2 text-3xl font-semibold text-lime-600 md:text-5xl ">
+                                                About Us
+                                            </h1>
+                                        </div>
+                                        <p className="mb-6 text-sm sm:text-base leading-7 text-gray-50" >
+                                            Team Daksh is the official technical team of NIT Jamshedpur which design and fabricates  ATVs.
+                                            We also proudly claims the first position as the official club at NIT Jamshedpur.
+                                            Team Daksh was started in the year 2009 by a small group of students who have their
+                                            own determination to Explore the mechanism of ATVs. Every year we participates in
+                                            BAJA SAE and holds top position among all the teams. Our Team under the guidance
+                                            of Dr.sanjay and Mr. Rupak kumar have made remarkable innovation and got shifted
+                                            from roar of the engine to the electric pulse of progress. Now Team daksh is charged
+                                            with the electrifying power of electricity.
+                                        </p>
+
+                                    </div>
                                 </div>
                             </div>
-                            <div className='flex md:flex-wrap flex-wrap-reverse justify-center mt-4 mb-4'>
-                                <div>
-                                    <img src="https://images.pexels.com/photos/1188083/pexels-photo-1188083.png?cs=srgb&dl=sea-dawn-nature-1188083.jpg&fm=jpg" className='w-full h-32 rounded-md object-cover items-center' alt="Project" />
+                        </section>
+
+
+                        <div className='text-white'>
+                            <div className='flex flex-wrap justify-center'>
+                                <div className='rounded-md  w-full px-5 sm:px-2 sm:w-2/3 h-full' >
+                                    <h1 className='text-2xl md:text-3xl lg:text-4xl mt-4 mb-4 '>Our <span className='text-lime-600'>Innovation</span> </h1>
+                                    <p className='text-sm md:text-base text-gray-100'>
+                                        Our innovative exhaust system incorporates a revolutionary plasma film, transforming
+                                        the conventional setup. This technology leverages plasma filtration to break down
+                                        pollutants in exhaust gases, reducing harmful emissions significantly. With benefits
+                                        including emission reduction, improved air quality, and a commitment to environmental
+                                        sustainability, our solution represents a synergy of traditional engineering and
+                                        cutting-edge science. This marks a substantial leap towards eco-friendly and sustainable
+                                        automotive solutions, aligning with the broader goals of the industry.
+                                    </p>
                                 </div>
-                                <div className='rounded-md  w-1/2 md:w-2/3 h-full ml-2' >
+                                <div className='my-3 sm:w-auto w-full sm:px-0 px-5 mt-4 sm:my-0 '>
+                                    <img src="/crausal.jpg" className='w-full rounded-md object-cover h-auto sm:h-40  ' alt="Project" />
+                                </div>
+                            </div>
+                            <div className='flex md:flex-wrap flex-wrap-reverse justify-center mt-4 mb-4 sm:my-20'>
+                                <div className='my-3 sm:w-auto w-full sm:px-0 px-5 mt-4 sm:my-0'>
+                                    <img src="/crausal2.jpg" className='w-full rounded-md object-cover h-auto sm:h-40 items-center' alt="Project" />
+                                </div>
+                                <div className='rounded-md  w-full px-5 sm:px-2 sm:w-2/3 h-full ml-2' >
                                     <h1 className='text-2xl md:text-3xl lg:text-4xl  mb-4'>Our <span className='text-lime-600'>Mission</span></h1>
                                     <p className='text-sm md:text-base text-gray-100'>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    "Our mission is to lead the electric vehicle revolution with innovative designs that prioritize sustainability
+                                     and efficiency. Spearheading this commitment, our team is dedicated to creating a greener future, exemplified 
+                                     in projects like the e-Baja, where cutting-edge electric vehicle technology meets off-road performance. We strive 
+                                     to set new standards in environmental responsibility while pushing the boundaries of electric mobility."
                                     </p>
                                 </div>
                             </div>
                             <div className='flex flex-wrap  justify-center mt-4 mb-20'>
-                                <div className='rounded-md  w-1/2 md:w-2/3 h-full' >
-                                    <h1 className='text-2xl md:text-3xl lg:text-4xl  mb-4'>Welcome to <span className='text-lime-600'>Topic</span></h1>
+                                <div className='rounded-md  w-full px-5 sm:px-2 sm:w-2/3 h-full' >
+                                    <h1 className='text-2xl md:text-3xl lg:text-4xl  mb-4'>Our <span className='text-lime-600'>Team</span></h1>
                                     <p className='text-sm md:text-base text-gray-100'>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    Having carved a niche in crafting robust, petrol-powered off-road marvels, our adept team is now poised 
+                                    for an exhilarating transformation towards electric off-road prowess. Seamlessly blending our heritage 
+                                    of rugged performance with an unwavering dedication to sustainability, we ardently champion the avant-garde 
+                                    in electric mobility. Unified by a collective vision, our diverse and skilled cadre is resolutely committed 
+                                    to pushing the boundaries, ensuring that our electric off-road vehicles not only emulate but surpass the 
+                                    zenith of their petrol-powered counterparts.
                                     </p>
                                 </div>
-                                <div>
-                                    <img src="https://tse1.mm.bing.net/th?id=OIP.1YM53mG10H_U25iPjop83QHaEo&pid=Api&P=0&h=180" className='w-full h-32 rounded-md object-cover ml-2 items-center' alt="Project" />
+                                <div className='my-3 sm:w-auto w-full sm:px-0 px-5 mt-4 sm:my-0'>
+                                    <img src="/crausal3.jpg" className='w-full rounded-md object-cover h-auto sm:h-40  items-center' alt="Project" />
                                 </div>
                             </div>
                         </div>

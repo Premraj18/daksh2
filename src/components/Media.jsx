@@ -15,7 +15,7 @@ const Media = () => {
         }
     })
     return (
-        <motion.div className="lg:flex hidden justify-center  flex-col w-10  items-center fixed top-1/2 left-0 z-10 text-white"
+        <motion.div className="lg:flex hidden justify-center mx-1 gap-1  flex-col w-10  items-center fixed top-1/2 left-0 z-10 text-white"
             variants={{
                 visible: { opacity: 0 },
                 hidden: { opacity:1 },

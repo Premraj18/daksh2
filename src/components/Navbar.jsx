@@ -137,7 +137,7 @@ export default function Navbar() {
                       animate={{opacity:1,x:0}}
                       transition={{duration:0.5,delay:0.8}}
                     >
-                      <Link className=' text-2xl font-bold text-white  px-10 py-1 rounded'><img src="/logo2.png" className='w-32 ' alt="" /></Link>
+                      <Link className=' text-2xl font-bold text-white  px-10 py-1 rounded'><img src="/logo2.png" className='w-28 sm:w-32 ' alt="" /></Link>
                     </motion.div>
                   </Link>
                 </div>

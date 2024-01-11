@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import SponserCard from "./SponserCard";
+import { Link } from "react-router-dom";
 
 
 const SponsorCrausal = () => {
@@ -25,7 +26,7 @@ const SponsorCrausal = () => {
                 <div className="w-full">
                     <SponserCard />
                 </div>
-                <div className="w-full">
+                <div className="w-full mt-10">
                     <p className="w-full text-xl text-center font-semibold md:text-3xl mt-4 text-lime-600">SUPPORT US</p>
                 </div>
                 <div className="flex items-center justify-center w-full">
@@ -34,10 +35,10 @@ const SponsorCrausal = () => {
                         Contribute to a cause, Be a Predator with us."</p>
                 </div>
                 <div className="w-full mb-10 text-center">
-                    <a href="#"
+                    <Link to='/sponser'
                         className=" px-4 py-2 text-gray-100 border-2 border-lime-700 rounded-3xl   dark:hover:bg-lime-700 hover:bg-lime-700">
                         Learn more
-                    </a>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -28,37 +28,82 @@ const Sponser = () => {
                             Sponsor <span className="text-lime-500">Us</span>
                         </h1>
                         <h2 className='text-white text-center text-lg my-2 py-2 sm:text-3xl '>Be a Part of Our Journey!</h2>
-                        <hr className='border-lime-600 border-2 w-[220px] sm:w-[400px] m-auto'/>
-                        <p className="text-lg mt-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti neque nostrum provident fuga repellat ullam, dolorem eveniet odit deserunt! Enim aliquid nulla tempora consequuntur a ipsum, pariatur natus maiores consequatur neque assumenda incidunt, voluptatem ipsa molestiae! Sunt eius inventore itaque dolorem, deserunt aspernatur aut cum fugiat odio consectetur nobis quod.
+                        <hr className='border-lime-600 border-2 w-[220px] sm:w-[400px] m-auto' />
+                        <p className="text-lg mt-10 md:mx-40">
+                            Be at the forefront of innovation! Support our college technical team as we electrify the all-terrain
+                            vehicle scene for the e-BAJA event. By sponsoring us, you align your brand with sustainable technology,
+                            cutting-edge engineering, and the excitement of competition. Partner with us and drive the future of
+                            mobility at Team DAKSH
 
                         </p>
                     </div>
 
-                    <div className="flex flex-col sm:flex-row text-md justify-around text-lime-500 mt-8">
+                    <div className="flex flex-col sm:flex-row text-md justify-around text-lime-500 ">
                         <div className="m-6 flex flex-col items-center">
                             <h1 className="text-lg sm:text-2xl mb-2">Become Our Partner</h1>
                             <Link to='/partner' className='text-white my-4'>
-                                <FaHandshake size={50}/>
+                                <FaHandshake size={50} />
                             </Link>
                         </div>
 
                         <div className="m-6 flex flex-col items-center md:mr-20">
-                            <h1 className="text-lg sm:text-2xl mb-2">Donate</h1>
+                            <h1 className="text-lg sm:text-2xl mb-2">Contact to Donate</h1>
                             <a href='mailto:daksh.nitjsr@nitjsr.ac.in ' className='text-white my-4'>
-                                <FaDonate size={50}/>
+                                <FaDonate size={50} />
                             </a>
                         </div>
 
                         <div className="m-6 flex flex-col items-center">
                             <h1 className="text-lg sm:text-2xl mb-2">Brochure</h1>
                             <a download='brouchre' href='/brouchre.pdf' className='text-white my-4'>
-                                <BsDownload size={50}/>
+                                <BsDownload size={50} />
                             </a>
                         </div>
                     </div>
 
-                    
+                    <div className='mt-10 md:mx-40'>
+                        <h2 className='text-center text-xl text-lime-600 md:text-3xl'>Why Shoul You Sponser Us</h2>
+                        <ul className='flex flex-col md:text-lg text-base px-5 text-white justify-center list-disc gap-y-5 pl-10 my-10 w-full'>
+                            <li className=' text-white '>
+                                Networking Opportunities: Sponsors might see opportunities to
+                                connect with like-minded individuals or organizations, leading
+                                to potential collaborations and business relationships.
+                            </li>
+                            <li className=' text-white '>
+                                Brand Recognition: Sponsoring can enhance a company's or
+                                individual's brand image. Being associated with successful
+                                or meaningful endeavors can positively impact how the sponsor
+                                is perceived by the public.
+                            </li>
+                            <li className=' text-white '>
+                                Corporate Social Responsibility (CSR): Many companies are committed
+                                to contributing to social and environmental causes as part of their
+                                CSR initiatives. Sponsoring individuals or projects that promote
+                                positive social impact aligns with these values.
+
+                            </li>
+                            <li className=' text-white '>
+                                Shared Values: Sponsors may be interested in supporting causes or
+                                projects that align with their values and mission. If there is a
+                                strong alignment between the sponsor's goals and the goals of the
+                                individual or project seeking sponsorship, it can be a compelling
+                                reason to offer support.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className='mt-10'>
+                        <h2 className='text-center text-xl text-lime-600 md:text-3xl'>BANK DETAILS</h2>
+
+                        <div className='flex flex-col gap-y-4 my-10'>
+                            <p className='text-center '>Account number</p>
+                            <p className='text-center '>Account number</p>
+                            <p className='text-center '>Account number</p>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </Layout>

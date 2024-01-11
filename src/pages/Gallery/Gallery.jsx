@@ -21,7 +21,7 @@ const Gallery = () => {
     return (
         <>
             <Layout>
-                <div className="w-full sm:h-[130vh] h-[120vh] sm:w-auto flex flex-wrap"
+                <div className="w-full  sm:w-auto flex flex-wrap"
                     style={{
                         backgroundImage: "url(" + "/sponser.jpg" + ")",
                         backgroundPosition: 'center',

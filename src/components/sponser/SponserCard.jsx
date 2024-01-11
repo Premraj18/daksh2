@@ -82,8 +82,8 @@ function SponserCard() {
     <div className=' w-auto'>
       <Slider {...settings}>
         {Data.map((d) => (
-          <div key={d.id} className="h-40 w-full rounded overflow-hidden flex flex-col items-center justify-center">
-            <img className="w-40 md:w-40 m-auto" src={d.imgUrl} alt="Sunset in the mountains" />
+          <div key={d.id} className="h-40 w-full rounded  flex flex-col items-center justify-center">
+            <img className="w-40 m-auto" src={d.imgUrl} alt="Sunset in the mountains" style={{aspectRatio:'3/2', objectFit:'contain', }}/>
             <div className="px-6 py-4">
               <p className="text-gray-100 text-center text-base  md:text-xl">
                 {d.description}
