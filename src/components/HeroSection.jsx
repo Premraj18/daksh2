@@ -60,14 +60,14 @@ const HeroSection = () => {
           </div>
           <motion.span className='hidden sm:block text-white mb-36 w-28 sm:w-40 text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{backgroundColor:'rgba(6, 77, 18, 0.786)', border:'3px solid #65a30d'}}
             initial={{y:-600}}
-            animate={{y:200}}
+            animate={{y:150}}
             transition={{duration:0.8,delay:1.6}}
-          ><a href='' target='_blank'>Off-Road IQ link</a></motion.span>
+          ><a href='' target='_blank'>Off-Road Quest - Prelims</a></motion.span>
           <motion.span className=' sm:hidden text-white mb-36 w-28 sm:w-40 text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{backgroundColor:'rgba(6, 77, 18, 0.786)', border:'3px solid #65a30d'}}
             initial={{y:-600}}
             animate={{y:200}}
             transition={{duration:0.8,delay:1.3}}
-          ><a href='' target='_blank'>Off-Road IQ link</a></motion.span>
+          ><a href='' target='_blank'>Off-Road Quest - Prelims</a></motion.span>
         </div>
       </div>
     </div>

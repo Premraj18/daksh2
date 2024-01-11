@@ -10,7 +10,6 @@ const Achivement = () => {
         <Layout>
             <>
                 <div>
-                    <p>Scroll Up and Down this page to see the parallax scrolling effect.</p>
 
                     <div className="min-h-[500px] bg-fixed bg-center bg-cover bg-no-repeat"
                         style={{

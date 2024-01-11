@@ -8,31 +8,7 @@ const Data = [
     id: "1",
     title: "Detail",
     description: "Platinum Sponsor",
-    imgUrl: "/sponser/img1.png"
-  },
-  {
-    id: "2",
-    title: "Detail",
-    description: "Platinum Sponsor",
-    imgUrl: "/sponser/img2.png"
-  },
-  {
-    id: "3",
-    title: "Detail",
-    description: "Platinum Sponsor",
-    imgUrl: "/sponser/img3.png"
-  },
-  {
-    id: "4",
-    title: "Detail",
-    description: "Platinum Sponsor",
-    imgUrl: "/sponser/img4.png"
-  },
-  {
-    id: "5",
-    title: "Detail",
-    description: "Platinum Sponsor",
-    imgUrl: "/sponser/img5.png"
+    imgUrl: "/sponser/skoda.jpg"
   },
   {
     id: "6",

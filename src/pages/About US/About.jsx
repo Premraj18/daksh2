@@ -34,7 +34,7 @@ const About = () => {
                             <div className="flex flex-wrap ">
                                 <motion.div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0" variants={variants}>
                                     <div className="relative lg:max-w-md">
-                                        <motion.img src="/crausal.jpg" alt="aboutimage"
+                                        <motion.img src="/about2.png" alt="aboutimage"
                                             className="relative z-10 object-cover w-full rounded h-96" variants={variants} />
                                         <motion.div
                                             className="absolute bottom-0 right-0 z-10 p-6 bg-white border-4 border-lime-600 rounded shadow dark:border-lime-500 lg:-mb-8 lg:-mr-11 sm:p-6  ">
@@ -73,14 +73,14 @@ const About = () => {
 
                         <section className="flex items-center bg-black xl:h-screen font-poppins sm:hidden sm:mb-0"
                             style={{
-                                backgroundImage: "url(" + "/crausal.jpg" + ")",
+                                backgroundImage: "url(" + "/about2.png" + ")",
                                 backgroundPosition: 'center',
                                 backgroundSize: 'cover',
                                 backgroundRepeat: 'no-repeat'
                             }}
                         >
                             <div className="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6 "
-                                style={{ background: 'linear-gradient(to bottom, rgba(2, 2, 2, 0.733),rgba(2, 2, 2, 0.733))' }}
+                                style={{ background: 'linear-gradient(to bottom, rgba(2, 2, 2, 0.333),rgba(2, 2, 2, 0.333))' }}
                             >
                                 <div className="flex flex-wrap ">
                                     <div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0">
