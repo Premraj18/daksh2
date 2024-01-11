@@ -82,7 +82,7 @@ const Sponser = () => {
                          initial='initial'
                          whileInView='animate'
                     >
-                        <motion.h2 className='text-center text-xl text-lime-600 md:text-3xl' variants={variants}>Why Shoul You Sponser Us</motion.h2>
+                        <motion.h2 className='text-center text-xl text-lime-600 md:text-3xl' variants={variants}>Why Should You Sponser Us</motion.h2>
                         <ul className='flex flex-col md:text-lg text-base px-5 text-white justify-center list-disc gap-y-5 pl-10 my-10 w-full'>
                             <motion.li className=' text-white ' variants={variants}>
                                 Networking Opportunities: Sponsors might see opportunities to
@@ -116,9 +116,10 @@ const Sponser = () => {
                         <h2 className='text-center text-xl text-lime-600 md:text-3xl'>BANK DETAILS</h2>
 
                         <div className='flex flex-col gap-y-4 mt-5'>
-                            <p className='text-center '>Account number</p>
-                            <p className='text-center '>Account number</p>
-                            <p className='text-center mb-10'>Account number</p>
+                            <p className='text-center '>Account Name - Society of Automotive Engineers, NIT JAMSHEDPUR</p>
+                            <p className='text-center '>Account number - 30375314280</p>
+                            <p className='text-center'>IFSC Code - SBIN0001882</p>
+                            <p className='text-center mb-10'>Phone/Google Pay/Paytm - 8210258224</p>
                         </div>
                     </div>
 

@@ -23,10 +23,10 @@ const Media = () => {
             animate={hidden ? "hidden" : "visible"}
             transition={{ duration: 0.35, ease: "easeInOut" }}
         >
-            <a href="" className='hidden lg:flex  items-center justify-center border-2 w-full h-10 border-lime-900 bg-lime-600 hover:text-pink-600'><BsInstagram size={23} /></a>
-            <a href="" className='hidden lg:flex  items-center justify-center border-2 w-full h-10 border-lime-900 bg-lime-600 hover:text-blue-600'><BsFacebook size={23} /></a>
-            <a href="" className='hidden lg:flex  items-center justify-center border-2 w-full h-10 border-lime-900 bg-lime-600 hover:text-blue-600'><BsLinkedin size={23} /></a>
-            <a href="" className='hidden lg:flex  items-center justify-center border-2 w-full h-10 border-lime-900 bg-lime-600 hover:text-red-600'><BsYoutube size={23} /></a>
+            <a href="https://www.instagram.com/team.daksh/" target='_blank' className='hidden lg:flex  items-center justify-center border-2 w-full h-10 border-lime-900 bg-lime-600 hover:text-pink-600'><BsInstagram size={23} /></a>
+            <a href="https://www.facebook.com/teamdaksh.nitjsr/" target='_blank' className='hidden lg:flex  items-center justify-center border-2 w-full h-10 border-lime-900 bg-lime-600 hover:text-blue-600'><BsFacebook size={23} /></a>
+            <a href="https://in.linkedin.com/company/teamdaksh" target='_blank' className='hidden lg:flex  items-center justify-center border-2 w-full h-10 border-lime-900 bg-lime-600 hover:text-blue-600'><BsLinkedin size={23} /></a>
+            <a href="https://www.youtube.com/@teamdaksh9836" target='_blank' className='hidden lg:flex  items-center justify-center border-2 w-full h-10 border-lime-900 bg-lime-600 hover:text-red-600'><BsYoutube size={23} /></a>
         </motion.div>
     )
 }

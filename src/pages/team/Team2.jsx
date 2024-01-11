@@ -16,7 +16,7 @@ const Team2 = () => {
                 </div>
 
                 <div className='text-gray-50 bg-black  sm:px-40 sm:py-10 px-2 text-center '>
-                    <h3 className='text-center text-3xl w-full mt-4 text-lime-600 '>WHAT WE DO</h3>
+                    <h3 className='text-center text-2xl sm:text-3xl w-full mt-4 text-lime-600 '>WHAT WE DO</h3>
                     <p className='text-lg my-8'>"We design powerful electric engines for off-road vehicles, focusing on events like e-Baja competitions.
                         Our goal is to create machines that balance strength, eco-friendliness, and off-road capability. We love the challenge,
                         working hard to make electric systems that set new standards for endurance and efficiency in the thrilling world of
@@ -43,7 +43,7 @@ const Team2 = () => {
                 </div>
 
                 <div className='text-gray-50 bg-black  sm:px-40 sm:py-10 px-2 text-center '>
-                    <h3 className='text-center text-3xl w-full mt-4 text-lime-600 '>WHO WE ARE</h3>
+                    <h3 className='text-center text-2xl sm:text-3xl w-full mt-4 text-lime-600 '>WHO WE ARE</h3>
                     <p className='text-lg my-8'>
                         We are a group of highly passionate, hardworking and enthusiastic students who
                         found their interest in off-roading and rose towards becoming a predator. Let’s
@@ -68,8 +68,8 @@ const Team2 = () => {
 
                 <div className='relative'>
                     <div className='text-gray-50 bg-black  sm:px-40 sm:py-10 px-2 text-center '>
-                        <h1 className='text-2xl md:text-3xl lg:text-4xl  mb-4'>Our <span className='text-lime-600'>Team</span></h1>
-                        <p className='text-sm md:text-base text-gray-100'>
+                        <h1 className='text-2xl sm:text-3xl  mt-4 text-lime-600'>OUR TEAM</h1>
+                        <p className='text-lg my-8'>
                             Having carved a niche in crafting robust, petrol-powered off-road marvels, our adept team is now poised
                             for an exhilarating transformation towards electric off-road prowess. Seamlessly blending our heritage
                             of rugged performance with an unwavering dedication to sustainability, we ardently champion the avant-garde
