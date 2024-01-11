@@ -48,9 +48,8 @@ const Contact = () => {
                             <motion.p className="mt-3 mb-12 text-lg text-gray-100 "
                                 variants={textvariants}
                             >
-                                className aptent taciti sociosqu ad
-                                litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque
-                                sagittis ante, ac tincidunt sem venenatis ut.
+                                Feel free to reach out to us with any inquiries,
+                                 feedback, or concerns. Your communication is important to us, and we aim to respond promptly to assist you.
                             </motion.p>
                             <motion.ul className="mb-6 md:mb-0">
                                 <motion.li className="flex"
@@ -133,9 +132,8 @@ const Contact = () => {
                         <div className="grid md:grid-cols-2">
                             <div className="h-full pr-6">
                                 <p className="mt-3 mb-12 text-lg text-gray-100 ">
-                                    className aptent taciti sociosqu ad
-                                    litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque
-                                    sagittis ante, ac tincidunt sem venenatis ut.
+                                Feel free to reach out to us with any inquiries, feedback, or concerns.
+                                 Your communication is important to us, and we aim to respond promptly to assist you.
                                 </p>
                                 <ul className="mb-6 md:mb-0">
                                     <li className="flex"
