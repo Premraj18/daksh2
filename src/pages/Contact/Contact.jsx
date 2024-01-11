@@ -52,6 +52,7 @@ const Contact = () => {
         const res = await fetch('https://teamdaksh-60754-default-rtdb.firebaseio.com/Messages.json', option)
         if(res){
             alert('Message sent Successfully')
+            setUserData({Name: '', Email: '', Message:''})
         }
     }
 
