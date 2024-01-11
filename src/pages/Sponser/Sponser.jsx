@@ -4,6 +4,22 @@ import { FaHandshake } from "react-icons/fa6";
 import { BsDownload } from 'react-icons/bs';
 import { FaDonate } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion'
+
+const variants = {
+    initial: {
+        y: -150,
+        opacity: 0,
+    },
+    animate: {
+        y: 0,
+        opacity: 1,
+        transition: {
+            duration: 0.5,
+            staggerChildren: 0.1,
+        },
+    },
+}
 
 const Sponser = () => {
     return (
@@ -61,44 +77,48 @@ const Sponser = () => {
                         </div>
                     </div>
 
-                    <div className='mt-10 md:mx-40'>
-                        <h2 className='text-center text-xl text-lime-600 md:text-3xl'>Why Shoul You Sponser Us</h2>
+                    <motion.div className='mt-10 md:mx-40'
+                         variants={variants}
+                         initial='initial'
+                         whileInView='animate'
+                    >
+                        <motion.h2 className='text-center text-xl text-lime-600 md:text-3xl' variants={variants}>Why Shoul You Sponser Us</motion.h2>
                         <ul className='flex flex-col md:text-lg text-base px-5 text-white justify-center list-disc gap-y-5 pl-10 my-10 w-full'>
-                            <li className=' text-white '>
+                            <motion.li className=' text-white ' variants={variants}>
                                 Networking Opportunities: Sponsors might see opportunities to
                                 connect with like-minded individuals or organizations, leading
                                 to potential collaborations and business relationships.
-                            </li>
-                            <li className=' text-white '>
+                            </motion.li>
+                            <motion.li className=' text-white ' variants={variants}>
                                 Brand Recognition: Sponsoring can enhance a company's or
                                 individual's brand image. Being associated with successful
                                 or meaningful endeavors can positively impact how the sponsor
                                 is perceived by the public.
-                            </li>
-                            <li className=' text-white '>
+                            </motion.li>
+                            <motion.li className=' text-white ' variants={variants}>
                                 Corporate Social Responsibility (CSR): Many companies are committed
                                 to contributing to social and environmental causes as part of their
                                 CSR initiatives. Sponsoring individuals or projects that promote
                                 positive social impact aligns with these values.
 
-                            </li>
-                            <li className=' text-white '>
+                            </motion.li>
+                            <motion.li className=' text-white ' variants={variants}>
                                 Shared Values: Sponsors may be interested in supporting causes or
                                 projects that align with their values and mission. If there is a
                                 strong alignment between the sponsor's goals and the goals of the
                                 individual or project seeking sponsorship, it can be a compelling
                                 reason to offer support.
-                            </li>
+                            </motion.li>
                         </ul>
-                    </div>
+                    </motion.div>
 
                     <div className='mt-10'>
                         <h2 className='text-center text-xl text-lime-600 md:text-3xl'>BANK DETAILS</h2>
 
-                        <div className='flex flex-col gap-y-4 my-10'>
+                        <div className='flex flex-col gap-y-4 mt-5'>
                             <p className='text-center '>Account number</p>
                             <p className='text-center '>Account number</p>
-                            <p className='text-center '>Account number</p>
+                            <p className='text-center mb-10'>Account number</p>
                         </div>
                     </div>
 

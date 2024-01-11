@@ -1,5 +1,6 @@
 import React, { useContext, useRef } from 'react'
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 const variants = {
     initial: {
@@ -81,7 +82,7 @@ const About = () => {
                         </motion.p>
                         <motion.a href="#"
                             className="px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700" >
-                            Learn more
+                            <Link to='/about'>Learn more</Link>
                         </motion.a>
                     </motion.div>
                 </motion.div>
@@ -136,7 +137,7 @@ const About = () => {
                             </p>
                             <a href="#"
                                 className="px-4 py-2 text-gray-100 bg-lime-600 rounded dark:bg-lime-500 dark:hover:bg-lime-700 hover:bg-lime-700">
-                                Learn more
+                                <Link to='/about'>Learn more</Link>
                             </a>
                         </div>
                     </div>

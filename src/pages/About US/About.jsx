@@ -34,7 +34,7 @@ const About = () => {
                             <div className="flex flex-wrap ">
                                 <motion.div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0" variants={variants}>
                                     <div className="relative lg:max-w-md">
-                                        <motion.img src="/about.jpg" alt="aboutimage"
+                                        <motion.img src="/crausal.jpg" alt="aboutimage"
                                             className="relative z-10 object-cover w-full rounded h-96" variants={variants} />
                                         <motion.div
                                             className="absolute bottom-0 right-0 z-10 p-6 bg-white border-4 border-lime-600 rounded shadow dark:border-lime-500 lg:-mb-8 lg:-mr-11 sm:p-6  ">
@@ -73,7 +73,7 @@ const About = () => {
 
                         <section className="flex items-center bg-black xl:h-screen font-poppins sm:hidden sm:mb-0"
                             style={{
-                                backgroundImage: "url(" + "/about.jpg" + ")",
+                                backgroundImage: "url(" + "/crausal.jpg" + ")",
                                 backgroundPosition: 'center',
                                 backgroundSize: 'cover',
                                 backgroundRepeat: 'no-repeat'
@@ -125,7 +125,7 @@ const About = () => {
                                     </p>
                                 </div>
                                 <div className='my-3 sm:w-auto w-full sm:px-0 px-5 mt-4 sm:my-0 '>
-                                    <img src="/crausal.jpg" className='w-full rounded-md object-cover h-auto sm:h-40  ' alt="Project" />
+                                    <img src="/mission.jpg" className='w-full rounded-md object-cover h-auto sm:h-40  ' alt="Project" />
                                 </div>
                             </div>
                             <div className='flex md:flex-wrap flex-wrap-reverse justify-center mt-4 mb-4 sm:my-20'>
@@ -135,27 +135,29 @@ const About = () => {
                                 <div className='rounded-md  w-full px-5 sm:px-2 sm:w-2/3 h-full ml-2' >
                                     <h1 className='text-2xl md:text-3xl lg:text-4xl  mb-4'>Our <span className='text-lime-600'>Mission</span></h1>
                                     <p className='text-sm md:text-base text-gray-100'>
-                                    "Our mission is to lead the electric vehicle revolution with innovative designs that prioritize sustainability
-                                     and efficiency. Spearheading this commitment, our team is dedicated to creating a greener future, exemplified 
-                                     in projects like the e-Baja, where cutting-edge electric vehicle technology meets off-road performance. We strive 
-                                     to set new standards in environmental responsibility while pushing the boundaries of electric mobility."
+                                        "Our mission is to lead the electric vehicle revolution with innovative designs that prioritize sustainability
+                                        and efficiency. Spearheading this commitment, our team is dedicated to creating a greener future, exemplified
+                                        in projects like the e-Baja, where cutting-edge electric vehicle technology meets off-road performance. We strive
+                                        to set new standards in environmental responsibility while pushing the boundaries of electric mobility."
                                     </p>
                                 </div>
                             </div>
                             <div className='flex flex-wrap  justify-center mt-4 mb-20'>
                                 <div className='rounded-md  w-full px-5 sm:px-2 sm:w-2/3 h-full' >
-                                    <h1 className='text-2xl md:text-3xl lg:text-4xl  mb-4'>Our <span className='text-lime-600'>Team</span></h1>
-                                    <p className='text-sm md:text-base text-gray-100'>
-                                    Having carved a niche in crafting robust, petrol-powered off-road marvels, our adept team is now poised 
-                                    for an exhilarating transformation towards electric off-road prowess. Seamlessly blending our heritage 
-                                    of rugged performance with an unwavering dedication to sustainability, we ardently champion the avant-garde 
-                                    in electric mobility. Unified by a collective vision, our diverse and skilled cadre is resolutely committed 
-                                    to pushing the boundaries, ensuring that our electric off-road vehicles not only emulate but surpass the 
-                                    zenith of their petrol-powered counterparts.
+                                    <h3 className=' text-3xl w-full mt-4 text-white '>WHAT WE <span className='text-lime-600'>COMPETE FOR?</span></h3>
+                                    <p className='text-lg my-8'>
+                                        At our college Team DAKSH, we strive to excel in designing and
+                                        constructing all-terrain vehicles. Transitioning from internal
+                                        combustion to electric engines represents our commitment to
+                                        innovation and sustainability. By participating in the e-BAJA
+                                        event, we aim to showcase our expertise in engineering,
+                                        teamwork, and adaptability, as we embrace the challenges and
+                                        opportunities of electric vehicle technology. Join us on this exhilarating journey as we push the boundaries of vehicle performance and efficiency in the electrifying realm of e-BAJA.
                                     </p>
+
                                 </div>
                                 <div className='my-3 sm:w-auto w-full sm:px-0 px-5 mt-4 sm:my-0'>
-                                    <img src="/crausal3.jpg" className='w-full rounded-md object-cover h-auto sm:h-40  items-center' alt="Project" />
+                                    <img src="/crausal3.jpg" className='w-full rounded-md object-cover h-48 sm:w-80  items-center' alt="Project" />
                                 </div>
                             </div>
                         </div>
