@@ -1,50 +1,58 @@
-[ 
-    {
-        "id": "1",
-        "imgUrl": "/achivement/img16.jpg"
-    },
-    {
-        "id": "2",
-        "imgUrl": "/achivement/img5.jpg"
-    },
-    {
-        "id": "3",
-        "imgUrl": "/achivement/img6.jpg"
-    },
-    {
-        "id": "4",
-        "imgUrl": "/achivement/img10.jpg"
-    },
-    {
-        "id": "5",
-        "imgUrl": "/achivement/img9.jpg"
-    },
-    {
-        "id": "6",
-        "imgUrl": "/achivement/img12.jpg"
-    },
-    {
-        "id": "7",
-        "imgUrl": "/achivement/img15.jpg"
-    },
-    {
-        "id": "8",
-        "imgUrl": "/achivement/img13.jpg"
-    },
-    {
-        "id": "9",
-        "imgUrl": "/achivement/img17.jpg"
-    },
-    {
-        "id": "10",
-        "imgUrl": "/achivement/img3.jpg"
-    },
-    {
-        "id": "11",
-        "imgUrl": "/achivement/img4.jpg"
-    },
-    {
-        "id": "12",
-        "imgUrl": "/achivement/img2.jpg"
-    }
+[
+    [
+        {
+            "id": "1",
+            "imgUrl": "/Gallery/event/img1.jpg"
+        },
+        {
+            "id": "2",
+            "imgUrl": "/Gallery/event/img2.jpg"
+        },
+        {
+            "id": "3",
+            "imgUrl": "/Gallery/event/img3.jpg"
+        }
+    ],
+    [
+        {
+            "id": "4",
+            "imgUrl": "/Gallery/event/img4.jpg"
+        },
+        {
+            "id": "5",
+            "imgUrl": "/Gallery/event/img5.jpg"
+        },
+        {
+            "id": "6",
+            "imgUrl": "/Gallery/event/img6.jpg"
+        }
+    ],
+    [
+        {
+            "id": "7",
+            "imgUrl": "/Gallery/event/img7.jpg"
+        },
+        {
+            "id": "8",
+            "imgUrl": "/Gallery/event/img8.jpg"
+        },
+        {
+            "id": "9",
+            "imgUrl": "/Gallery/event/img9.jpg"
+        }
+    ],
+    [
+        {
+            "id": "10",
+            "imgUrl": "/Gallery/event/img10.jpg"
+        },
+        {
+            "id": "11",
+            "imgUrl": "/Gallery/event/img11.jpg"
+        },
+        {
+            "id": "12",
+            "imgUrl": "/Gallery/event/img12.jpg"
+        }
+    ]
 ]

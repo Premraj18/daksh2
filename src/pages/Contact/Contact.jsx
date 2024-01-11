@@ -75,7 +75,7 @@ const Contact = () => {
                                     <div className="ml-4 mb-4">
                                         <h3 className="mb-2 text-lg font-medium leading-6 text-gray-50 " >Contact
                                         </h3>
-                                        <p className="text-gray-100 ">Mobile: +1 (123) 456-7890</p>
+                                        <p className="text-gray-100 ">Mobile:+91 8210258224</p>
                                     </div>
                                 </motion.li>
                                 <motion.li className="flex mt-5 "
@@ -86,7 +86,7 @@ const Contact = () => {
                                     </div>
                                     <div className="ml-4 mb-4">
                                         <h3 className="mb-2 text-lg font-medium leading-6 text-gray-50 " >Mail</h3>
-                                        <p className="text-gray-100 ">Mail: example@gmail.com</p>
+                                        <p className="text-gray-100 ">Mail: daksh.nitjsr@nitjsr.ac.in</p>
                                     </div>
                                 </motion.li>
                             </motion.ul>
@@ -167,7 +167,7 @@ const Contact = () => {
                                         </div>
                                         <div className="ml-4 mb-4">
                                             <h3 className="mb-2 text-lg font-medium leading-6 text-gray-50 " >Mail</h3>
-                                            <p className="text-gray-100 ">Mail: example@gmail.com</p>
+                                            <p className="text-gray-100 ">Mail: daksh.nitjsr@nitjsr.ac.in</p>
                                         </div>
                                     </li>
                                 </ul>

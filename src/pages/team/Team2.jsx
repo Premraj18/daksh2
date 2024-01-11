@@ -50,12 +50,12 @@ const Team2 = () => {
                         meet the engineers who found their place in today’s complicated and fast-moving
                         world and do what they love i.e. Design, Build and Compete.
                     </p>
-                    <div className="w-full mb-10 text-center">
+                    {/* <div className="w-full mb-10 text-center">
                         <a href="#"
                             className=" px-4 py-2 text-gray-100  border-lime-700 rounded-3xl border-2  dark:hover:bg-lime-700 hover:bg-lime-700">
                             Learn more
                         </a>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="relative  bg-cover bg-fixed bg-center bg-no-repeat h-[60vh] sm:h-[80vh] "
@@ -71,7 +71,7 @@ const Team2 = () => {
                         <h1 className='text-2xl sm:text-3xl  mt-4 text-lime-600'>OUR TEAM</h1>
                         <p className='text-lg my-8'>
                             Having carved a niche in crafting robust, petrol-powered off-road marvels, our adept team is now poised
-                            for an exhilarating transformation towards electric off-road prowess. Seamlessly blending our heritage
+                            for an exhilarating transformation towards electric off-road process. Seamlessly blending our heritage
                             of rugged performance with an unwavering dedication to sustainability, we ardently champion the avant-garde
                             in electric mobility. Unified by a collective vision, our diverse and skilled cadre is resolutely committed
                             to pushing the boundaries, ensuring that our electric off-road vehicles not only emulate but surpass the

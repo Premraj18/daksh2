@@ -13,7 +13,7 @@ export default function Footer() {
                         <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3 lg:text-xl" >Quick Link</h2>
                         <nav className="list-none w-full mb-5 text-sm lg:text-lg flex justify-center gap-x-1">
                             <li>
-                                <Link to='/home' className="text-gray-50 hover:text-lime-600 cursor-pointer" >Home |</Link>
+                                <Link to='/' className="text-gray-50 hover:text-lime-600 cursor-pointer" >Home |</Link>
                             </li>
                             <li>
                                 <Link to='/about' className="text-gray-50 hover:text-lime-600 cursor-pointer" >About |</Link>
@@ -25,7 +25,7 @@ export default function Footer() {
                                 <Link to='/achivements' className="text-gray-50 hover:text-lime-600 cursor-pointer" >Achivements |</Link>
                             </li>
                             <li>
-                                <Link to='/conatct' className="text-gray-50 hover:text-lime-600 cursor-pointer" >Contact us</Link>
+                                <Link to='/contact' className="text-gray-50 hover:text-lime-600 cursor-pointer" >Contact us</Link>
                             </li>
                         </nav>
                     </div>
@@ -40,19 +40,19 @@ export default function Footer() {
                             
                         <nav className="list-none mt-5">
                             <li>
-                                <p className="text-gray-50  lg:text-base text-center flex justify-center items-center" ><MdLocationPin size={35} color='#65a30d'/> <span> National Institute of Technology Jamspuhedr, <br/> Adityapur, Jamshedpur, Jharkhand 831014 </span></p>
+                                <p className="text-gray-50  lg:text-base text-center flex justify-center items-center" ><MdLocationPin size={35} color='#65a30d'/> <span> National Institute of Technology Jamshedpur, <br/> Adityapur, Jamshedpur, Jharkhand 831014 </span></p>
                             </li>
                             <li>
-                                <p className="text-gray-50  lg:text-base flex gap-x-5 my-3 items-center justify-center" ><BsTelephone size={25} color='#65a30d'/><span>+91 12345 21344</span></p>
+                                <p className="text-gray-50  lg:text-base flex gap-x-5 my-3 items-center justify-center" ><BsTelephone size={25} color='#65a30d'/><span>+91 8210258224</span></p>
                             </li>
                             <li>
-                                <p className="text-gray-50  lg:text-base flex gap-x-5 my-3 items-center justify-center" ><MdMail size={25} color='#65a30d'/><span>example@gmail.com</span> </p>
+                                <p className="text-gray-50  lg:text-base flex gap-x-5 my-3 items-center justify-center" ><MdMail size={25} color='#65a30d'/><span>daksh.nitjsr@nitjsr.ac.in</span> </p>
                             </li>
                         </nav>
                     </div>
                 </div>
                 <div className='lg:text-lg text-white flex '>
-                    <p >Designed By: <a href="" className='text-lime-600'>Abcdefgh</a> </p>
+                    <p >Designed By: <a href="" className='text-lime-600'>Prem Raj</a> </p>
                 </div>
             </div>
 

@@ -8,7 +8,7 @@ const Partner = () => {
             <div>
                 <div className="h-[600px] md:min-h-[650px] bg-fixed bg-center bg-cover bg-no-repeat"
                     style={{
-                        backgroundImage: "url(" + "/crausal.jpg" + ")",
+                        backgroundImage: "url(" + "/sponserbg.png" + ")",
                     }}
 
                 >
@@ -21,7 +21,7 @@ const Partner = () => {
 
                 <div className='sm:h-[600px] flex flex-col items-center md:min-h-[650px] bg-fixed bg-center bg-cover bg-no-repeat '
                     style={{
-                        backgroundImage: "url(" + "/crausal.jpg" + ")",
+                        backgroundImage: "url(" + "/sponserbg.png" + ")",
                     }}
                 >
                     <table class="table-auto md:w-[70%] bg-transparent sm:mb-0 mb-10">

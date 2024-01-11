@@ -16,6 +16,7 @@ export default function GalleryCard({ item }) {
   return (
     <>
       <div className='dabba flex sm:ml-36 sm:w-[80%] flex-wrap mb-20 gap-x-2 gap-y-10 sm:mt-20'>
+        
         <Swiper
           effect={'cube'}
           grabCursor={true}

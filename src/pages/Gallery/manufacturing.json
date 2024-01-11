@@ -2,30 +2,33 @@
     [
         {
             "id": "1",
-            "imgUrl": "/Gallery/manufacture/img2.jpg"
+            "imgUrl": "/Gallery/manufacture/img1.JPG"
         },
         {
             "id": "2",
-            "imgUrl": "/Gallery/manufacture/img1.jpg"
+            "imgUrl": "/Gallery/manufacture/img2.jpg"
         },
         {
             "id": "3",
             "imgUrl": "/Gallery/manufacture/img3.jpg"
-        },
-        {
-            "id": "4",
-            "imgUrl": "/Gallery/manufacture/img4.jpg"
         }
     ],
     [
         {
+            "id": "4",
+            "imgUrl": "/Gallery/manufacture/img4.jpg"
+        },
+        {
             "id": "5",
-            "imgUrl": "/Gallery/manufacture/img5.jpg"
+            "imgUrl": "/Gallery/manufacture/img5.JPG"
         },
         {
             "id": "6",
             "imgUrl": "/Gallery/manufacture/img6.jpg"
-        },
+        }
+
+    ],
+    [
         {
             "id": "7",
             "imgUrl": "/Gallery/manufacture/img7.jpg"
@@ -33,16 +36,17 @@
         {
             "id": "8",
             "imgUrl": "/Gallery/manufacture/img8.jpg"
-        }
-    ],
-    [
+        },
         {
             "id": "9",
             "imgUrl": "/Gallery/manufacture/img9.jpg"
-        },
+        }
+       
+    ],
+    [
         {
             "id": "10",
-            "imgUrl": "/Gallery/manufacture/img10.jpg"
+            "imgUrl": "/Gallery/manufacture/img10.JPG"
         },
         {
             "id": "11",
@@ -51,24 +55,6 @@
         {
             "id": "12",
             "imgUrl": "/Gallery/manufacture/img12.jpg"
-        }
-    ],
-    [
-        {
-            "id": "13",
-            "imgUrl": "/Gallery/manufacture/img13.jpg"
-        },
-        {
-            "id": "14",
-            "imgUrl": "/Gallery/manufacture/img14.jpg"
-        },
-        {
-            "id": "16",
-            "imgUrl": "/Gallery/manufacture/img16.JPG"
-        },
-        {
-            "id": "17",
-            "imgUrl": "/Gallery/manufacture/img17.JPG"
         }
        
     ]

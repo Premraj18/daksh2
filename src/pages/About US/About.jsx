@@ -56,9 +56,9 @@ const About = () => {
                                     </motion.div>
                                     <motion.p className="mb-6 text-base leading-7 text-gray-100 " variants={variants} >
                                         Team Daksh is the official technical team of NIT Jamshedpur which design and fabricates  ATVs.
-                                        We also proudly claims the first position as the official club at NIT Jamshedpur.
+                                        We also proudly claim the first position as the official club at NIT Jamshedpur.
                                         Team Daksh was started in the year 2009 by a small group of students who have their
-                                        own determination to Explore the mechanism of ATVs. Every year we participates in
+                                        own determination to Explore the mechanism of ATVs. Every year we participate in
                                         BAJA SAE and holds top position among all the teams. Our Team under the guidance
                                         of Dr.sanjay and Mr. Rupak kumar have made remarkable innovation and got shifted
                                         from roar of the engine to the electric pulse of progress. Now Team daksh is charged
@@ -95,9 +95,9 @@ const About = () => {
                                         </div>
                                         <p className="mb-6 text-base sm:textleading-7 text-gray-50" >
                                             Team Daksh is the official technical team of NIT Jamshedpur which design and fabricates  ATVs.
-                                            We also proudly claims the first position as the official club at NIT Jamshedpur.
+                                            We also proudly claim the first position as the official club at NIT Jamshedpur.
                                             Team Daksh was started in the year 2009 by a small group of students who have their
-                                            own determination to Explore the mechanism of ATVs. Every year we participates in
+                                            own determination to Explore the mechanism of ATVs. Every year we participate in
                                             BAJA SAE and holds top position among all the teams. Our Team under the guidance
                                             of Dr.sanjay and Mr. Rupak kumar have made remarkable innovation and got shifted
                                             from roar of the engine to the electric pulse of progress. Now Team daksh is charged

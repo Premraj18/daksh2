@@ -7,13 +7,13 @@ const Data = [
   {
     id: "1",
     title: "Detail",
-    description: "About the Invester",
+    description: "Platinum Sponsor",
     imgUrl: "/sponser/img1.png"
   },
   {
     id: "2",
     title: "Detail",
-    description: "About the Invester",
+    description: "Platinum Sponsor",
     imgUrl: "/sponser/img2.png"
   },
   {
@@ -25,7 +25,7 @@ const Data = [
   {
     id: "4",
     title: "Detail",
-    description: "About the Invester",
+    description: "Platinum Sponsor",
     imgUrl: "/sponser/img4.png"
   },
   {
@@ -37,14 +37,38 @@ const Data = [
   {
     id: "6",
     title: "Detail",
-    description: "About the Invester",
+    description: "Gold Sponser",
     imgUrl: "/sponser/img6.png"
   },
   {
     id: "7",
     title: "Detail",
-    description: "About the Invester",
+    description: "Gold Sponser",
     imgUrl: "/sponser/img7.png"
+  },
+  {
+    id: "8",
+    title: "Detail",
+    description: "Silver Sponser",
+    imgUrl: "/sponser/img8.png"
+  },
+  {
+    id: "9",
+    title: "Detail",
+    description: "Silver Sponser",
+    imgUrl: "/sponser/img9.png"
+  },
+  {
+    id: "10",
+    title: "Detail",
+    description: "Sponser",
+    imgUrl: "/sponser/img10.png"
+  },
+  {
+    id: "11",
+    title: "Detail",
+    description: "Sponser",
+    imgUrl: "/sponser/img11.png"
   }
 ]
 

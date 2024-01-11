@@ -16,6 +16,7 @@ const Gallery = () => {
     const [item3, setItem3] = useState(Workshop)
     const [item4, setItem4] = useState(GroupPhoto)
     const [item5, setItem5] = useState(Celebration)
+    const [bgcolor, setbgcolor] = useState("green")
 
 
     return (
@@ -39,15 +40,15 @@ const Gallery = () => {
                     </div>
 
                     <div className='flex justify-center flex-wrap w-full mt-10 sm:mt-20 text-xs sm:text-base'>
-                        <button className="sm:w-36 w-24 mx-5 my-2 px-4 py-2 text-gray-100 border-2 md:rounded-3xl rounded-2xl border-lime-700 dark:hover:bg-lime-700 hover:bg-lime-700"
-                            onClick={() => setActive('item1')}>Manufacture</button>
-                        <button className="sm:w-36 w-24 mx-5 my-2 px-4 py-2 text-gray-100 border-2 md:rounded-3xl rounded-2xl border-lime-700 dark:hover:bg-lime-700 hover:bg-lime-700"
+                        <button className="sm:w-36 w-32 mx-5 my-2 px-4 py-2  text-gray-100 border-2 md:rounded-3xl rounded-2xl border-lime-700 dark:hover:bg-lime-700 hover:bg-lime-700"
+                            onClick={() => setActive('item1')} style={{backgroundColor:bgcolor}}>Manufacturing</button>
+                        <button className="sm:w-36 w-32 mx-5 my-2 px-4 py-2 text-gray-100 border-2 md:rounded-3xl rounded-2xl border-lime-700 dark:hover:bg-lime-700 hover:bg-lime-700"
                             onClick={() => setActive('item2')}>Events</button>
-                        <button className="sm:w-36 w-24 mx-5 my-2 px-4 py-2 text-gray-100 border-2 md:rounded-3xl rounded-2xl border-lime-700 dark:hover:bg-lime-700 hover:bg-lime-700"
+                        <button className="sm:w-36 w-32 mx-5 my-2 px-4 py-2 text-gray-100 border-2 md:rounded-3xl rounded-2xl border-lime-700 dark:hover:bg-lime-700 hover:bg-lime-700"
                             onClick={() => setActive('item3')}>Workshop</button>
-                        <button className="sm:w-36 w-24 mx-5 my-2 px-4 py-2 text-gray-100 border-2 md:rounded-3xl rounded-2xl border-lime-700 dark:hover:bg-lime-700 hover:bg-lime-700"
+                        <button className="sm:w-36 w-32 mx-5 my-2 px-4 py-2 text-gray-100 border-2 md:rounded-3xl rounded-2xl border-lime-700 dark:hover:bg-lime-700 hover:bg-lime-700"
                             onClick={() => setActive('item4')}>Group Photos</button>
-                        <button className="sm:w-36 w-24 mx-5 my-2 px-4 py-2 text-gray-100 border-2 md:rounded-3xl rounded-2xl border-lime-700 dark:hover:bg-lime-700 hover:bg-lime-700"
+                        <button className="sm:w-36 w-32 mx-5 my-2 px-4 py-2 text-gray-100 border-2 md:rounded-3xl rounded-2xl border-lime-700 dark:hover:bg-lime-700 hover:bg-lime-700"
                             onClick={() => setActive('item5')}>Celebration</button>
 
                     </div>
