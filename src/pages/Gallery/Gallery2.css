@@ -22,3 +22,11 @@
 .swiper-cube .swiper-cube-shadow:before{
   background: rgb(12, 122, 12);
 }
+
+@media(max-width:557px){
+  .swiper {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+  }
+}

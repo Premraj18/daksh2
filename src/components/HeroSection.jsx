@@ -44,8 +44,15 @@ const HeroSection = () => {
         <div className='flex flex-col justify-start items-center h-full w-full' style={{
           background:'linear-gradient(to bottom, rgba(2, 2, 2, 0.233), rgba(2, 2, 2, 0.233),rgba(17, 52, 23, 0.433))'
         }}>
-          <div className='flex flex-col justify-start pt-20 pl-20 w-full'>
+          <div className='hidden sm:flex  justify-end items-start pt-20 pr-20 w-full'>
           <motion.span className='text-white uppercase w-72 sm:w-[500px] mb-20 md:mb-40 text-center text-sm sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2 tracking-wide'
+            initial={{y:100,opacity:0,scale:1}}
+            animate={{y:20,opacity:1,scale:1.2}}
+            transition={{duration:1,delay:1.1}}
+          >"Unleash the thrill of the terrain with unstoppable off-road prowess."</motion.span>
+          </div>
+          <div className='sm:hidden flex justify-center  w-full'>
+          <motion.span className='text-white uppercase w-60 sm:w-[500px] mb-40 md:mb-40 text-center text-sm sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2 tracking-wide'
             initial={{y:100,opacity:0,scale:1}}
             animate={{y:20,opacity:1,scale:1.2}}
             transition={{duration:1,delay:1.1}}

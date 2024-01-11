@@ -22,12 +22,12 @@ const Gallery = () => {
         <>
             <Layout>
                 <div className="w-full  sm:w-auto flex flex-wrap"
-                    style={{
-                        backgroundImage: "url(" + "/sponser.jpg" + ")",
-                        backgroundPosition: 'center',
-                        backgroundSize: 'cover',
-                        backgroundRepeat: 'no-repeat'
-                    }}
+                    // style={{
+                    //     backgroundImage: "url(" + "/sponser.jpg" + ")",
+                    //     backgroundPosition: 'center',
+                    //     backgroundSize: 'cover',
+                    //     backgroundRepeat: 'no-repeat'
+                    // }}
                 >
                     <div className="h-full w-full justify-center items-center flex-1 "
                         style={{

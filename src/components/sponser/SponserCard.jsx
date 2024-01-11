@@ -19,7 +19,7 @@ const Data = [
   {
     id: "3",
     title: "Detail",
-    description: "About the Invester",
+    description: "Platinum Sponsor",
     imgUrl: "/sponser/img3.png"
   },
   {
@@ -31,7 +31,7 @@ const Data = [
   {
     id: "5",
     title: "Detail",
-    description: "About the Invester",
+    description: "Platinum Sponsor",
     imgUrl: "/sponser/img5.png"
   },
   {
