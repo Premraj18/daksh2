@@ -32,6 +32,7 @@ const App = () => {
           <Route path="/sponser" element={<Sponser />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/partner" element={<Partner />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </Router>
     </>
