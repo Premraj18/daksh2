@@ -206,8 +206,8 @@ const Contact = () => {
                                 <h2 className="mb-4 text-2xl font-bold text-white" variants={textvariants} >Ready to Get Started?</h2>
                                 <form id="contactForm">
                                     <div className="mb-6">
-                                        <div className="mx-0 mb-1 sm:mb-4">
-                                            <div className="mx-0 mb-1 sm:mb-4 text-black" variants={textvariants} >
+                                        <div className="mx-0 mb-1 sm:mb-4 text-black">
+                                            <div className="mx-0 mb-1 sm:mb-4 " variants={textvariants} >
                                                 <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" value={userData.Name} onChange={data} autoComplete="given-name" placeholder="Your name" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="Name" />
                                             </div>
                                             <div className="mx-0 mb-1 sm:mb-4" variants={textvariants}>
