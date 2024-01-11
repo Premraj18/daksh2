@@ -58,12 +58,12 @@ const HeroSection = () => {
             transition={{duration:1,delay:1.1}}
           >"Unleash the thrill of the terrain with unstoppable off-road prowess."</motion.span>
           </div>
-          <motion.span className='hidden sm:block text-white mb-36 w-28 sm:w-40 text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{backgroundColor:'rgba(6, 77, 18, 0.786)', border:'3px solid #65a30d'}}
+          <motion.span className='hidden sm:block text-white mb-36 w-28 sm:w-60 text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{backgroundColor:'rgba(6, 77, 18, 0.786)', border:'3px solid #65a30d'}}
             initial={{y:-600}}
             animate={{y:150}}
             transition={{duration:0.8,delay:1.6}}
           ><a href='' target='_blank'>Off-Road Quest - Prelims</a></motion.span>
-          <motion.span className=' sm:hidden text-white mb-36 w-28 sm:w-40 text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{backgroundColor:'rgba(6, 77, 18, 0.786)', border:'3px solid #65a30d'}}
+          <motion.span className=' sm:hidden text-white mb-36 w-60  text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{backgroundColor:'rgba(6, 77, 18, 0.786)', border:'3px solid #65a30d'}}
             initial={{y:-600}}
             animate={{y:200}}
             transition={{duration:0.8,delay:1.3}}
