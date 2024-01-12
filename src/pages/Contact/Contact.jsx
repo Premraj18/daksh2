@@ -131,14 +131,14 @@ const Contact = () => {
                                 <motion.div className="mb-6">
                                     <motion.div className="mx-0 mb-1 sm:mb-4 text-black">
                                         <motion.div className="mx-0 mb-1 sm:mb-4" variants={textvariants}>
-                                            <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider"></label><input type="text" value={userData.Name} onChange={data} id="name" autoComplete="off" placeholder="Your name" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="Name" />
+                                            <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider"></label><input type="text" value={userData.Name} onChange={data} id="name" autoComplete="off" placeholder="Your name" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md sm:mb-0" required name="Name" />
                                         </motion.div>
                                         <motion.div className="mx-0 mb-1 sm:mb-4" variants={textvariants}>
-                                            <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider"></label><input type="email" value={userData.Email} onChange={data} id="email" autoComplete="off" placeholder="Your email address" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="Email" />
+                                            <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider"></label><input type="email" value={userData.Email} onChange={data} id="email" autoComplete="off" placeholder="Your email address" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md sm:mb-0" required name="Email" />
                                         </motion.div>
                                     </motion.div>
                                     <motion.div className="mx-0 mb-1 sm:mb-4 text-black" variants={textvariants}>
-                                        <label htmlFor="textarea" className="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" value={userData.Message} onChange={data} name="Message" cols="30" rows="5" placeholder="Write your message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" ></textarea>
+                                        <label htmlFor="textarea" className="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" value={userData.Message} onChange={data} name="Message" cols="30" rows="5" placeholder="Write your message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md sm:mb-0" required ></textarea>
                                     </motion.div>
                                 </motion.div>
                                 <motion.div className="text-center" variants={textvariants}>
@@ -209,14 +209,14 @@ const Contact = () => {
                                     <div className="mb-6">
                                         <div className="mx-0 mb-1 sm:mb-4 text-black">
                                             <div className="mx-0 mb-1 sm:mb-4 " variants={textvariants} >
-                                                <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" value={userData.Name} onChange={data} autoComplete="given-name" placeholder="Your name" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="Name" />
+                                                <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" value={userData.Name} onChange={data} autoComplete="given-name" placeholder="Your name" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md sm:mb-0" required name="Name" />
                                             </div>
                                             <div className="mx-0 mb-1 sm:mb-4" variants={textvariants}>
-                                                <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" value={userData.Email} onChange={data}  autoComplete="email" placeholder="Your email address" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="Email"/>
+                                                <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" value={userData.Email} onChange={data}  autoComplete="email" placeholder="Your email address" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md sm:mb-0" required name="Email"/>
                                             </div>
                                         </div>
                                         <div className="mx-0 mb-1 sm:mb-4 text-black" variants={textvariants}>
-                                            <label htmlFor="textarea" className="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" value={userData.Message} onChange={data} name="Message" cols="30" rows="5" placeholder="Write your message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
+                                            <label htmlFor="textarea" className="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" value={userData.Message} onChange={data} name="Message" cols="30" rows="5" placeholder="Write your message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md sm:mb-0" required></textarea>
                                         </div>
                                     </div>
                                     <div className="text-center" variants={textvariants}>
