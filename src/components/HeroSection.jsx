@@ -70,7 +70,7 @@ const HeroSection = () => {
             initial={{ textShadow: '', opacity: 0.4, scale: 1 }}
             animate={{ textShadow: '0 0 20px #65a30d', scale: 1.01, opacity: 1 }}
             transition={{ duration: 1, repeat: Infinity, repeatType: 'mirror' }}
-          >Test will Start sharp at 2:15 PM <br />It will end after 30 min</motion.p>
+          >Test will Start sharp at 2:15 PM tommorrow <br />It will end after 30 min</motion.p>
 
           <motion.span className=' sm:hidden text-white mb-36 w-60  text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{ backgroundColor: 'rgba(6, 77, 18, 0.786)', border: '3px solid #65a30d' }}
             initial={{ y: -600 }}
@@ -82,7 +82,7 @@ const HeroSection = () => {
             initial={{ textShadow: '', opacity: 0.4, scale: 1 }}
             animate={{ textShadow: '0 0 20px #65a30d', scale: 1.01, opacity: 1 }}
             transition={{ duration: 1, repeat: Infinity, repeatType: 'mirror' }}
-          >Test will Start sharp at 2:15 PM <br />It will end after 30 min</motion.p>
+          >Test will Start sharp at 2:15 PM tommorrow <br />It will end after 30 min</motion.p>
         </div>
       </div>
     </div>
