@@ -31,7 +31,7 @@ const slideImages = [
 const HeroSection = () => {
   return (
     <div className="slide-container sm:mb-0 mb-12">
-      <div className='h-[90vh] md:h-[90vh] ' style={{
+      <div className='h-[90vh] md:h-[100vh] ' style={{
         backgroundImage: "url(" + "/hero2.webp" + ")",
         display: 'flex',
         alignItems: 'center',
