@@ -94,9 +94,9 @@ export default function Navbar() {
                     </Link>
                   </div>
                   <div className="flex gap-5 items-center justify-center pt-10">
-                    <a href="" className='xl:w-12 hover:text-lime-600'><BsInstagram size={25} /></a>
-                    <a href="" className='xl:w-12 hover:text-lime-600'><BsFacebook size={25} /></a>
-                    <a href="" className='xl:w-12 hover:text-lime-600'><BsLinkedin size={25} /></a>
+                    <a href="https://www.instagram.com/team.daksh/" target='_blank' className='xl:w-12 hover:text-lime-600'><BsInstagram size={25} /></a>
+                    <a href="https://www.facebook.com/teamdaksh.nitjsr/" target='_blank' className='xl:w-12 hover:text-lime-600'><BsFacebook size={25} /></a>
+                    <a href="https://in.linkedin.com/company/teamdaksh" target='_blank' className='xl:w-12 hover:text-lime-600'><BsLinkedin size={25} /></a>
                   </div>
                 </div>
               </Dialog.Panel>
