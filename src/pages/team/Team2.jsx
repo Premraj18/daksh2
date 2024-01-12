@@ -8,7 +8,7 @@ const Team2 = () => {
             <div className='h-full '>
                 <div className="relative  bg-cover bg-fixed bg-center bg-no-repeat h-[60vh] sm:h-[80vh] "
                     style={{
-                        backgroundImage: "url(" + "/Team/img1.JPG" + ")",
+                        backgroundImage: "url(" + "/Team/img1.webp" + ")",
 
                     }}
                 >
@@ -35,7 +35,7 @@ const Team2 = () => {
 
                 <div className="relative  bg-cover bg-fixed bg-center bg-no-repeat h-[60vh] sm:h-[80vh] "
                     style={{
-                        backgroundImage: "url(" + "/Team/img2.jpg" + ")",
+                        backgroundImage: "url(" + "/Team/img2.webp" + ")",
 
 
                     }}
@@ -60,7 +60,7 @@ const Team2 = () => {
 
                 <div className="relative  bg-cover bg-fixed bg-center bg-no-repeat h-[60vh] sm:h-[80vh] "
                     style={{
-                        backgroundImage: "url(" + "/Team/img3.jpg" + ")",
+                        backgroundImage: "url(" + "/Team/img3.webp" + ")",
 
                     }}
                 >

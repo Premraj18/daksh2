@@ -34,7 +34,7 @@ const About = () => {
                             <div className="flex flex-wrap ">
                                 <motion.div className="w-full px-4 mb-10 lg:w-1/2 lg:mb-0" variants={variants}>
                                     <div className="relative lg:max-w-md">
-                                        <motion.img src="/about2.png" alt="aboutimage"
+                                        <motion.img src="/about2.webp" alt="aboutimage"
                                             className="relative z-10 object-cover w-full rounded h-96" variants={variants} />
                                         <motion.div
                                             className="absolute bottom-0 right-0 z-10 p-6 bg-white border-4 border-lime-600 rounded shadow dark:border-lime-500 lg:-mb-8 lg:-mr-11 sm:p-6  ">
@@ -73,7 +73,7 @@ const About = () => {
 
                         <section className="flex items-center bg-black xl:h-screen font-poppins sm:hidden sm:mb-0"
                             style={{
-                                backgroundImage: "url(" + "/about2.png" + ")",
+                                backgroundImage: "url(" + "/about2.webp" + ")",
                                 backgroundPosition: 'center',
                                 backgroundSize: 'cover',
                                 backgroundRepeat: 'no-repeat'
@@ -125,12 +125,12 @@ const About = () => {
                                     </p>
                                 </div>
                                 <div className='my-3 sm:w-auto w-full sm:px-0 px-5 mt-4 sm:my-0 '>
-                                    <img src="/mission.jpg" className='w-full rounded-md object-cover h-auto sm:h-40  ' alt="Project" />
+                                    <img src="/mission.webp" className='w-full rounded-md object-cover h-auto sm:h-40  ' alt="Project" />
                                 </div>
                             </div>
                             <div className='flex md:flex-wrap flex-wrap-reverse justify-center mt-4 mb-4 sm:my-20'>
                                 <div className='my-3 sm:w-auto w-full sm:px-0 px-5 mt-4 sm:my-0'>
-                                    <img src="/crausal2.jpg" className='w-full rounded-md object-cover h-auto sm:h-40 items-center' alt="Project" />
+                                    <img src="/crausal2.webp" className='w-full rounded-md object-cover h-auto sm:h-40 items-center' alt="Project" />
                                 </div>
                                 <div className='rounded-md  w-full px-5 sm:px-2 sm:w-2/3 h-full ml-2' >
                                     <h1 className='text-2xl sm:text-3xl md:text-3xl lg:text-4xl  mb-4'>Our <span className='text-lime-600'>Mission</span></h1>
@@ -157,7 +157,7 @@ const About = () => {
 
                                 </div>
                                 <div className='my-3 sm:w-auto w-full sm:px-0 px-5 mt-4 sm:my-0'>
-                                    <img src="/crausal3.jpg" className='w-full rounded-md object-cover h-48 sm:w-80  items-center' alt="Project" />
+                                    <img src="/crausal3.webp" className='w-full rounded-md object-cover h-48 sm:w-80  items-center' alt="Project" />
                                 </div>
                             </div>
                         </div>

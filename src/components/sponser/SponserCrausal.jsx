@@ -9,7 +9,7 @@ const SponsorCrausal = () => {
     return (
         <div className="w-full md:h-[120vh] sm:mt-0 mt-20"
             style={{
-                backgroundImage: "url(" + "/sponser.jpg" + ")",
+                backgroundImage: "url(" + "/sponser.webp" + ")",
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat'

@@ -97,7 +97,7 @@ const Achivement = () => {
     return (
         <div className="w-full  mb-2"
             style={{
-                backgroundImage: "url(" + "/gogreen2.png" + ")",
+                backgroundImage: "url(" + "/gogreen2.webp" + ")",
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat'

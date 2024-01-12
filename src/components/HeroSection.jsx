@@ -32,7 +32,7 @@ const HeroSection = () => {
   return (
     <div className="slide-container sm:mb-0 mb-12">
       <div className='h-[80vh] md:h-[90vh] ' style={{
-        backgroundImage: "url(" + "/hero2.png" + ")",
+        backgroundImage: "url(" + "/hero2.webp" + ")",
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',

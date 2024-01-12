@@ -27,7 +27,7 @@ const Sponser = () => {
             <div>
                 <div className=" h-[400px] md:min-h-[500px] bg-fixed bg-center bg-cover bg-no-repeat"
                     style={{
-                        backgroundImage: "url(" + "/sponser.jpg" + ")",
+                        backgroundImage: "url(" + "/sponser.webp" + ")",
                     }}
 
                 >

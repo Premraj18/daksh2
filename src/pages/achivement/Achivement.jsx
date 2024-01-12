@@ -13,7 +13,7 @@ const Achivement = () => {
 
                     <div className="min-h-[500px] bg-fixed bg-center bg-cover bg-no-repeat"
                         style={{
-                            backgroundImage: "url(" + "/gogreen2.png" + ")",
+                            backgroundImage: "url(" + "/gogreen2.webp" + ")",
                         }}
 
                     >

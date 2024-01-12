@@ -8,43 +8,43 @@ const Data = [
     id: "1",
     title: "Detail",
     description: "Platinum Sponsor",
-    imgUrl: "/sponser/skoda.jpg"
+    imgUrl: "/sponser/skoda.webp"
   },
   {
     id: "6",
     title: "Detail",
     description: "Gold Sponser",
-    imgUrl: "/sponser/img6.png"
+    imgUrl: "/sponser/img6.webp"
   },
   {
     id: "7",
     title: "Detail",
     description: "Gold Sponser",
-    imgUrl: "/sponser/img7.png"
+    imgUrl: "/sponser/img7.webp"
   },
   {
     id: "8",
     title: "Detail",
     description: "Silver Sponser",
-    imgUrl: "/sponser/img8.png"
+    imgUrl: "/sponser/img8.webp"
   },
   {
     id: "9",
     title: "Detail",
     description: "Silver Sponser",
-    imgUrl: "/sponser/img9.png"
+    imgUrl: "/sponser/img9.webp"
   },
   {
     id: "10",
     title: "Detail",
     description: "Sponser",
-    imgUrl: "/sponser/img10.png"
+    imgUrl: "/sponser/img10.webp"
   },
   {
     id: "11",
     title: "Detail",
     description: "Sponser",
-    imgUrl: "/sponser/img11.png"
+    imgUrl: "/sponser/img11.webp"
   }
 ]
 
