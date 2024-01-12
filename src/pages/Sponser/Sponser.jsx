@@ -82,7 +82,7 @@ const Sponser = () => {
                          initial='initial'
                          whileInView='animate'
                     >
-                        <motion.h2 className='text-center text-xl text-lime-600 md:text-3xl' variants={variants}>Why Should You Sponser Us</motion.h2>
+                        <motion.h2 className='text-center text-xl text-lime-600 md:text-3xl' variants={variants}>Why Should You Sponsor Us</motion.h2>
                         <ul className='flex flex-col md:text-lg text-base px-5 text-white justify-center list-disc gap-y-5 pl-10 my-10 w-full'>
                             <motion.li className=' text-white ' variants={variants}>
                                 Networking Opportunities: Sponsors might see opportunities to

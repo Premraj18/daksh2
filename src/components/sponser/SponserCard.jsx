@@ -13,37 +13,37 @@ const Data = [
   {
     id: "6",
     title: "Detail",
-    description: "Gold Sponser",
+    description: "Gold Sponsor",
     imgUrl: "/sponser/img6.webp"
   },
   {
     id: "7",
     title: "Detail",
-    description: "Gold Sponser",
+    description: "Gold Sponsor",
     imgUrl: "/sponser/img7.webp"
   },
   {
     id: "8",
     title: "Detail",
-    description: "Silver Sponser",
+    description: "Silver Sponsor",
     imgUrl: "/sponser/img8.webp"
   },
   {
     id: "9",
     title: "Detail",
-    description: "Silver Sponser",
+    description: "Silver Sponsor",
     imgUrl: "/sponser/img9.webp"
   },
   {
     id: "10",
     title: "Detail",
-    description: "Sponser",
+    description: "Sponsor",
     imgUrl: "/sponser/img10.webp"
   },
   {
     id: "11",
     title: "Detail",
-    description: "Sponser",
+    description: "Sponsor",
     imgUrl: "/sponser/img11.webp"
   }
 ]
