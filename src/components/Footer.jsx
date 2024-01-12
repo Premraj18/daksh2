@@ -11,9 +11,9 @@ export default function Footer() {
                 <div className="flex flex-wrap md:text-left text-center order-first">
                     <div className="lg:w-1/3 md:w-1/2 w-full sm:px-4 flex flex-col justify-center items-center" >
                         <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3 lg:text-xl" >Quick Link</h2>
-                        <nav className="list-none w-full mb-5 text-sm lg:text-lg flex justify-center gap-x-1">
+                        <nav className="list-none w-full sm:w-[400px] mb-5 text-sm lg:text-lg flex justify-center gap-x-1 ">
                             <li>
-                                <Link to='/' className="text-gray-50 hover:text-lime-600 cursor-pointer" >Home |</Link>
+                                <Link to='/' className="text-gray-50 hover:text-lime-600 cursor-pointer " >Home |</Link>
                             </li>
                             <li>
                                 <Link to='/about' className="text-gray-50 hover:text-lime-600 cursor-pointer" >About |</Link>
