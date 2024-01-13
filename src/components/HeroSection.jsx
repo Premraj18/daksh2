@@ -71,7 +71,7 @@ const HeroSection = () => {
             initial={{ textShadow: '', opacity: 0.4, scale: 1 }}
             animate={{ textShadow: '0 0 20px #65a30d', scale: 1.01, opacity: 1 }}
             transition={{ duration: 1, repeat: Infinity, repeatType: 'mirror' }}
-          >To see Yor result of prelims</motion.p>
+          >To see Your result of prelims</motion.p>
 
           {/* href='mailto:daksh.nitjsr@nitjsr.ac.in ' target='_blank' */}
 
@@ -86,7 +86,7 @@ const HeroSection = () => {
             initial={{ textShadow: '', opacity: 0.4, scale: 1 }}
             animate={{ textShadow: '0 0 20px #65a30d', scale: 1.01, opacity: 1 }}
             transition={{ duration: 1, repeat: Infinity, repeatType: 'mirror' }}
-          >To see Yor result of prelims</motion.p> 
+          >To see Your result of prelims</motion.p> 
 
         </div>
       </div>
