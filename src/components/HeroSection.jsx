@@ -60,29 +60,29 @@ const HeroSection = () => {
             >"Unleash the thrill of the terrain with unstoppable off-road prowess."</motion.span>
           </div>
 
-          <motion.span className='hidden sm:block text-white mb-36 w-28 sm:w-60 text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{ backgroundColor: 'rgba(6, 77, 18, 0.786)', border: '3px solid #65a30d' }}
+          <motion.span className='hidden sm:block text-white mb-24 sm:w-52 text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{ backgroundColor: 'rgba(6, 77, 18, 0.786)', border: '3px solid #65a30d' }}
             initial={{ y: -600 }}
-            animate={{ y: 150 }}
+            animate={{ y: 180 }}
             transition={{ duration: 0.8, delay: 1.6 }}
-          ><a href='https://forms.gle/1uVJwQAGhA6LxshJA' target='_blank'>Off-Road Quest - Prelims</a></motion.span>
+          ><a href='mailto:daksh.nitjsr@nitjsr.ac.in ' target='_blank'>Support Us</a></motion.span>
 
-          <motion.p className='hidden sm:block sm:text-xl mt-5 text-center'
+          {/* <motion.p className='hidden sm:block sm:text-xl mt-5 text-center'
             initial={{ textShadow: '', opacity: 0.4, scale: 1 }}
             animate={{ textShadow: '0 0 20px #65a30d', scale: 1.01, opacity: 1 }}
             transition={{ duration: 1, repeat: Infinity, repeatType: 'mirror' }}
-          >Test will Start sharp at 2:15 PM tommorrow <br />It will end after 30 min</motion.p>
+          >Test will Start sharp at 2:15 PM tommorrow <br />It will end after 30 min</motion.p> */}
 
-          <motion.span className=' sm:hidden text-white mb-36 w-60  text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{ backgroundColor: 'rgba(6, 77, 18, 0.786)', border: '3px solid #65a30d' }}
+          <motion.span className=' sm:hidden text-white mb-36 w-40  text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{ backgroundColor: 'rgba(6, 77, 18, 0.786)', border: '3px solid #65a30d' }}
             initial={{ y: -600 }}
             animate={{ y: 200 }}
             transition={{ duration: 0.8, delay: 1.3 }}
-          ><a href='https://forms.gle/1uVJwQAGhA6LxshJA' target='_blank'>Off-Road Quest - Prelims</a></motion.span>
-
+          ><a href='mailto:daksh.nitjsr@nitjsr.ac.in ' target='_blank'>Support Us</a></motion.span>
+{/* 
           <motion.p className='sm:hidden sm:text-xl mt-16 text-center'
             initial={{ textShadow: '', opacity: 0.4, scale: 1 }}
             animate={{ textShadow: '0 0 20px #65a30d', scale: 1.01, opacity: 1 }}
             transition={{ duration: 1, repeat: Infinity, repeatType: 'mirror' }}
-          >Test will Start sharp at 2:15 PM tommorrow <br />It will end after 30 min</motion.p>
+          >Test will Start sharp at 2:15 PM tommorrow <br />It will end after 30 min</motion.p> */}
         </div>
       </div>
     </div>
