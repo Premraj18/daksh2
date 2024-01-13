@@ -15,6 +15,7 @@ import Contact from './pages/Contact/Contact';
 import About from './pages/About US/About';
 import Team2 from './pages/team/Team2';
 import Partner from './pages/Sponser/Partner';
+import Result from './components/Result';
 
 const App = () => {
   return (
@@ -32,7 +33,7 @@ const App = () => {
           <Route path="/sponser" element={<Sponser />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/partner" element={<Partner />} />
-          <Route path="*" element={<Home />} />
+          <Route path="/result" element={<Result/>} />
         </Routes>
       </Router>
     </>
