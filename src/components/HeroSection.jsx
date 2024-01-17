@@ -86,7 +86,7 @@ const HeroSection = () => {
 
           <motion.span className=' sm:hidden text-white mb-2 w-40  text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{ backgroundColor: 'rgba(6, 77, 18, 0.786)', border: '3px solid #65a30d' }}
             initial={{ y: -600 }}
-            animate={{ y: 200 }}
+            animate={{ y: 230 }}
             transition={{ duration: 0.8, delay: 1.3 }}
           ><a href='mailto:daksh.nitjsr@nitjsr.ac.in ' target='_blank'>Support Us</a></motion.span>
 
