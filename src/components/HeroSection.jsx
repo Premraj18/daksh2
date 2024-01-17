@@ -63,6 +63,14 @@ const HeroSection = () => {
 
           <motion.span className='hidden sm:block text-white mb-24 sm:w-52 text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{ backgroundColor: 'rgba(6, 77, 18, 0.786)', border: '3px solid #65a30d' }}
             initial={{ y: -600 }}
+            animate={{ y: 200 }}
+            transition={{ duration: 0.8, delay: 1.6 }}
+          ><a href='mailto:daksh.nitjsr@nitjsr.ac.in ' target='_blank'>Support Us</a></motion.span>
+
+
+
+          {/* <motion.span className='hidden sm:block text-white mb-24 sm:w-52 text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{ backgroundColor: 'rgba(6, 77, 18, 0.786)', border: '3px solid #65a30d' }}
+            initial={{ y: -600 }}
             animate={{ y: 180 }}
             transition={{ duration: 0.8, delay: 1.6 }}
           ><Link to='/result'>Click here</Link></motion.span>
@@ -71,12 +79,20 @@ const HeroSection = () => {
             initial={{ textShadow: '', opacity: 0.4, scale: 1 }}
             animate={{ textShadow: '0 0 20px #65a30d', scale: 1.01, opacity: 1 }}
             transition={{ duration: 1, repeat: Infinity, repeatType: 'mirror' }}
-          >To see Your result of prelims</motion.p>
+          >To see Your result of prelims</motion.p> */}
 
           {/* href='mailto:daksh.nitjsr@nitjsr.ac.in ' target='_blank' */}
 
 
           <motion.span className=' sm:hidden text-white mb-2 w-40  text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{ backgroundColor: 'rgba(6, 77, 18, 0.786)', border: '3px solid #65a30d' }}
+            initial={{ y: -600 }}
+            animate={{ y: 200 }}
+            transition={{ duration: 0.8, delay: 1.3 }}
+          ><a href='mailto:daksh.nitjsr@nitjsr.ac.in ' target='_blank'>Support Us</a></motion.span>
+
+
+
+          {/* <motion.span className=' sm:hidden text-white mb-2 w-40  text-center sm:text-lg cursor-pointer  rounded-3xl p-1 sm:p-2' style={{ backgroundColor: 'rgba(6, 77, 18, 0.786)', border: '3px solid #65a30d' }}
             initial={{ y: -600 }}
             animate={{ y: 200 }}
             transition={{ duration: 0.8, delay: 1.3 }}
@@ -86,7 +102,7 @@ const HeroSection = () => {
             initial={{ textShadow: '', opacity: 0.4, scale: 1 }}
             animate={{ textShadow: '0 0 20px #65a30d', scale: 1.01, opacity: 1 }}
             transition={{ duration: 1, repeat: Infinity, repeatType: 'mirror' }}
-          >To see Your result of prelims</motion.p> 
+          >To see Your result of prelims</motion.p>  */}
 
         </div>
       </div>
