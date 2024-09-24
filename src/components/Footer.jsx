@@ -52,7 +52,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='lg:text-lg text-white flex '>
-                    <p >Designed By: <a href="" className='text-lime-600'>Prem Raj</a> </p>
+                    <p >Designed&Develop By: <a href="" className='text-lime-600'>Ayush Negi</a> </p>
                 </div>
             </div>
 
@@ -63,7 +63,7 @@ export default function Footer() {
                             <h1 className=' text-2xl font-bold text-white  px-2 py-1 rounded' >Team<span className='text-lime-600'>Daksh</span></h1>
                         </div>
                     </Link>
-                    <p className="text-sm text-gray-50 sm:ml-6 sm:mt-0 mt-4" >© 2023 NIT Jamshedpur —
+                    <p className="text-sm text-gray-50 sm:ml-6 sm:mt-0 mt-4" >© 2024 NIT Jamshedpur —
                         <a href="https://twitter.com/knyttneve" rel="noopener noreferrer" className="text-gray-100 ml-1" target="_blank" >www.teamdaksh.com</a>
                     </p>
                     <span className="inline-flex sm:ml-auto mr-20 sm:mt-0 mt-4 justify-center sm:justify-start">
