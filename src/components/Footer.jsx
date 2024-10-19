@@ -52,7 +52,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className='lg:text-lg text-white flex '>
-                    <p >Designed&Develop By: <a href="" className='text-lime-600'>Ayush Negi</a> </p>
+                    <p >Designed&Develop By: <a href="" className='text-lime-600'>Prem Raj</a> </p>
                 </div>
             </div>
 
